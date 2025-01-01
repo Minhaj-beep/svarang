@@ -950,7 +950,7 @@
  }
 
  body {
-     background: #0e1218;
+     background: #FFFFFF;
      min-height: 100%
  }
 
@@ -997,7 +997,7 @@ input[type="text"],input[type="mail"],input[type="tel"]  , input[type="password"
     text-edge: cap;
     font-size: 14px;
     line-height: 20px;
-    font-family: Clash Grotesk;
+    font-family: Filson Pro;
     font-weight: 500;
 }
 
@@ -1023,7 +1023,7 @@ textarea {
     text-edge: cap;
     font-size: 14px;
     line-height: 20px;
-    font-family: Clash Grotesk;
+    font-family: Filson Pro;
     font-weight: 500;
     min-height: 100px;
 }
@@ -1199,7 +1199,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      border-radius: 10px;
@@ -1217,7 +1217,7 @@ textarea:focus{
      z-index: 99;
      border: 1px solid #4b515a;
      border-radius: 0 0 10px 10px;
-     background: #0e1218
+     background: #002147
  }
 
  .select-items div {
@@ -1241,11 +1241,11 @@ textarea:focus{
  }
 
  .body--white .user-nav__link svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .search__btn svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .logo__img {
@@ -1255,7 +1255,7 @@ textarea:focus{
 
  .body--white .select-items div,
  .body--white .select-selected {
-     color: #0e1218;
+     color: #002147;
      border: 1px solid #d7dadd
  }
 
@@ -1277,7 +1277,7 @@ textarea:focus{
  }
 
  .body--white .title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .tags__tag span {
@@ -1286,21 +1286,21 @@ textarea:focus{
  }
 
  .body--white .tags__tag:hover {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .tags__tag:hover span {
-     background: #0e1218;
+     background: #002147;
      color: #fff
  }
 
  .body--white .tags__tag--active {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .tags__tag--active span {
      color: #fff;
-     background: #000
+     background: #002147
  }
 
  .body--white .header {
@@ -1318,11 +1318,11 @@ textarea:focus{
  }
 
  .body--white .menu__list-link span {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .menu__list-link svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .aside--active .menu__list-link:hover {
@@ -1338,27 +1338,27 @@ textarea:focus{
  }
 
  .body--white .footer__copy {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .paging__list-text {
-     background: #0e1218;
+     background: #002147;
      color: #fff
  }
 
  .body--white .paging__list-link {
-     color: #0e1218;
+     color: #002147;
      border: 1px solid #d7dadd
  }
 
  .body--white .paging__list-link svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .paging__list-link:hover {
-     background: #0e1218;
+     background: #002147;
      color: #fff;
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .paging__list-link:hover svg path {
@@ -1366,7 +1366,7 @@ textarea:focus{
  }
 
  .body--white .card-options__btn span {
-     background: #0e1218
+     background: #002147
  }
 
  .body--white .card {
@@ -1374,18 +1374,18 @@ textarea:focus{
  }
 
  .body--white .card__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .card-box__link {
      border: 1px solid #d7dadd;
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .card-box__link:hover {
      color: #fff;
-     background: #0e1218;
-     border: 1px solid #0e1218
+     background: #002147;
+     border: 1px solid #002147
  }
 
  .body--white .card-person-img__status {
@@ -1410,40 +1410,40 @@ textarea:focus{
  }
 
  .body--white .search__input {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .card__link {
      border: 1px solid #d7dadd;
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .card__link:hover {
-     background: #0e1218;
-     border: 1px solid #0e1218;
+     background: #002147;
+     border: 1px solid #002147;
      color: #fff
  }
 
  .body--white .card-box-column__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .card-list__rait {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .card-box__poster-text {
-     background: #0e1218;
+     background: #002147;
      color: #fff
  }
 
  .body--white .filters-panel-form-range__input {
-     color: #0e1218;
+     color: #002147;
      border: 1px solid #d7dadd
  }
 
  .body--white .card__description {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .error__inner {
@@ -1451,7 +1451,7 @@ textarea:focus{
  }
 
  .body--white .error__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .error__search .search__input {
@@ -1463,17 +1463,17 @@ textarea:focus{
  }
 
  .body--white .breadcrumbs__list-text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .section-top-content__buttons-link {
      border: 1px solid #d7dadd;
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .section-top-content__buttons-link:hover {
-     background: #0e1218;
-     border: 1px solid #0e1218;
+     background: #002147;
+     border: 1px solid #002147;
      color: #fff
  }
 
@@ -1492,7 +1492,7 @@ textarea:focus{
  }
 
  .body--white .blog-section-box__blockquote-subtext {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .about-event {
@@ -1504,28 +1504,28 @@ textarea:focus{
  }
 
  .body--white .event-aside-box__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .event-aside__price {
-     background: #0e1218;
+     background: #002147;
      color: #fff
  }
 
  .body--white .event-aside-box__list-text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .event-aside-box__list-text a {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .about-event-box__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .about-event-box__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .event-aside-box__list-item {
@@ -1537,15 +1537,15 @@ textarea:focus{
  }
 
  .body--white .blog-section-box-content__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .blog-section-box-content__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .blog-section-box-content__list-item {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .blog-section-box-content__blockquote {
@@ -1553,7 +1553,7 @@ textarea:focus{
  }
 
  .body--white .blog-section-box-content__blockquote-subtext {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .blog-section__tags-link {
@@ -1562,12 +1562,12 @@ textarea:focus{
 
  .body--white .blog-section__tags-link:hover {
      color: #fff;
-     background: #0e1218;
-     border: 1px solid #0e1218
+     background: #002147;
+     border: 1px solid #002147
  }
 
  .body--white .post-body-top__box-text span {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .courses-section-instructor__inner {
@@ -1575,11 +1575,11 @@ textarea:focus{
  }
 
  .body--white .courses-section-instructor-content__name {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .socials__item svg path {
-     fill: #0e1218
+     fill: #002147
  }
 
  .body--white .socials__link {
@@ -1587,8 +1587,8 @@ textarea:focus{
  }
 
  .body--white .socials__link:hover {
-     background: #0e1218;
-     border: 1px solid #0e1218
+     background: #002147;
+     border: 1px solid #002147
  }
 
  .body--white .socials__link:hover svg path {
@@ -1596,9 +1596,9 @@ textarea:focus{
  }
 
  .body--white .portfolio__btn:hover {
-     background: #0e1218;
+     background: #002147;
      color: #fff;
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .comments__inner {
@@ -1606,23 +1606,23 @@ textarea:focus{
  }
 
  .body--white .comments__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .comments-item__name {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .comments-item__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .comments-item__link svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .related__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .comment__inner {
@@ -1630,29 +1630,29 @@ textarea:focus{
  }
 
  .body--white .comment__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .comment__form-textarea {
-     color: #0e1218;
+     color: #002147;
      border: 1px solid #d7dadd
  }
 
  .body--white .comment__form-textarea:focus {
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .comment__form-input:focus {
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .comment__form-input {
-     color: #0e1218;
+     color: #002147;
      border: 1px solid #d7dadd
  }
 
  .body--white .comment__form-checkbox {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .comment__form-checkbox .checkmark {
@@ -1660,7 +1660,7 @@ textarea:focus{
  }
 
  .body--white .heading__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .heading__title span:first-child {
@@ -1668,11 +1668,11 @@ textarea:focus{
  }
 
  .body--white .heading__title span:first-child::before {
-     background: #0e1218
+     background: #002147
  }
 
  .body--white .heading__title span:last-child::before {
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .count-item:nth-child(4) {
@@ -1681,11 +1681,11 @@ textarea:focus{
  }
 
  .body--white .count-item:nth-child(4) .count-item__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .count-item:nth-child(4) .count-item__subtext {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .count-item:nth-child(4) .count-item__icon {
@@ -1693,11 +1693,11 @@ textarea:focus{
  }
 
  .body--white .count-item:nth-child(4):hover .count-item__icon {
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .groups-section-top__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .swiper-buttons-prev-btn {
@@ -1705,12 +1705,12 @@ textarea:focus{
  }
 
  .body--white .swiper-buttons-prev-btn svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .swiper-buttons-prev-btn:hover {
-     background: #0e1218;
-     border: 1px solid #0e1218
+     background: #002147;
+     border: 1px solid #002147
  }
 
  .body--white .swiper-buttons-prev-btn:hover svg path {
@@ -1722,12 +1722,12 @@ textarea:focus{
  }
 
  .body--white .swiper-buttons-next-btn svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .swiper-buttons-next-btn:hover {
-     background: #0e1218;
-     border: 1px solid #0e1218
+     background: #002147;
+     border: 1px solid #002147
  }
 
  .body--white .swiper-buttons-next-btn:hover svg path {
@@ -1735,11 +1735,11 @@ textarea:focus{
  }
 
  .body--white .elevate-content__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .new-courses-top__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .section-top-content__buttons-link--green {
@@ -1753,23 +1753,23 @@ textarea:focus{
  }
 
  .body--white .shop-section-top__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .news-section-top__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .tabs__btn--active {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .tabs__btn:hover {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .tabs__btn:hover span {
-     background: #0e1218;
+     background: #002147;
      color: #fff
  }
 
@@ -1787,11 +1787,11 @@ textarea:focus{
  }
 
  .body--white .product-content__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .product-content__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .product-content-quantity-box__row {
@@ -1799,15 +1799,15 @@ textarea:focus{
  }
 
  .body--white .product-content-quantity-box__row-input {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .product-content-quantity-box__row-btn svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .product-content-quantity-box__row-btn:hover {
-     background: #0e1218
+     background: #002147
  }
 
  .body--white .product-content-quantity-box__row-btn:hover svg path {
@@ -1816,7 +1816,7 @@ textarea:focus{
 
  .body--white .product-content__list-item {
      border-bottom: 1px solid #d7dadd;
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .product-swiper__prev {
@@ -1824,7 +1824,7 @@ textarea:focus{
  }
 
  .body--white .product-swiper__prev svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .product-swiper__prev:hover {
@@ -1837,7 +1837,7 @@ textarea:focus{
  }
 
  .body--white .product-swiper__next svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .product-swiper__next:hover {
@@ -1854,19 +1854,19 @@ textarea:focus{
  }
 
  .body--white .courses-section-overview-box__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .courses-section-overview-box__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .courses-section-overview-box__list-item {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .aside-cost-info__price {
-     background: #0e1218;
+     background: #002147;
      color: #fff
  }
 
@@ -1875,11 +1875,11 @@ textarea:focus{
  }
 
  .body--white .aside-cost-info__list-item {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .aside-cost-info__list-item svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .aside-cost-info__list-item {
@@ -1891,15 +1891,15 @@ textarea:focus{
  }
 
  .body--white .reviews-top-content__rait {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .reviews-comment-body-top__box-text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .reviews-comment-body__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .stars-star--disabled svg path {
@@ -1911,7 +1911,7 @@ textarea:focus{
  }
 
  .body--white .reviews-top-body-item__procents {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .reviews-top-content {
@@ -1919,7 +1919,7 @@ textarea:focus{
  }
 
  .body--white .tabs__btn--active span {
-     background: #0e1218;
+     background: #002147;
      color: #fff
  }
 
@@ -1928,7 +1928,7 @@ textarea:focus{
  }
 
  .body--white .courses-section-curriculum-item__top-title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .courses-section-curriculum-item__top::after {
@@ -1941,34 +1941,34 @@ textarea:focus{
  }
 
  .body--white .courses-section-curriculum-item-box__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .courses-section-curriculum-item-box__title svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .courses-section-curriculum-item-box__procents {
      color: #fff;
-     background: #0e1218
+     background: #002147
  }
 
  .body--white .courses-section-curriculum-item-box--blocked .courses-section-curriculum-item-box__procents {
      background: #eef2f6;
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .courses-section-curriculum-item-box--checked .courses-section-curriculum-item-box__procents {
      background: #6d9985;
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .courses-section-curriculum-item-box--active .courses-section-curriculum-item-box__link svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .group-profile-posts__top-text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .post {
@@ -1976,7 +1976,7 @@ textarea:focus{
  }
 
  .body--white .post-body-top__box-text a {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .post-body-info {
@@ -1984,7 +1984,7 @@ textarea:focus{
  }
 
  .body--white .post-body-assessment__btn:nth-child(2) svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .post-comments .comments__inner {
@@ -1996,19 +1996,19 @@ textarea:focus{
  }
 
  .body--white .user-card__body-text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .post-body-assessment__btn--like svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .post-body-content__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .post-body-content__list-item {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .aside-block {
@@ -2016,15 +2016,15 @@ textarea:focus{
  }
 
  .body--white .aside-block__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .aside-block-item-box__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .aside-block-item-box__text a {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .aside-block__link {
@@ -2032,9 +2032,9 @@ textarea:focus{
  }
 
  .body--white .aside-block__link:hover {
-     background: #000;
+     background: #002147;
      color: #fff;
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .group-profile-media-item {
@@ -2042,7 +2042,7 @@ textarea:focus{
  }
 
  .body--white .group-profile-media-item-top__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .group-profile-media-item-top-buttons__link {
@@ -2050,9 +2050,9 @@ textarea:focus{
  }
 
  .body--white .group-profile-media-item-top-buttons__link:hover {
-     background: #0e1218;
+     background: #002147;
      color: #fff;
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .group-profile-media-item-top-buttons__link--purple {
@@ -2069,22 +2069,22 @@ textarea:focus{
  }
 
  .body--white .members-section-top-body__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .members-section-top-body-box__buttons-link {
      border: 1px solid #d7dadd;
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .members-section-top-body-box__buttons-link svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .members-section-top-body-box__buttons-link:hover {
-     background: #0e1218;
+     background: #002147;
      color: #fff;
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .members-section-top-body-box__buttons-link:hover svg path {
@@ -2129,7 +2129,7 @@ textarea:focus{
  }
 
  .body--white .group-card-content__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .file {
@@ -2137,11 +2137,11 @@ textarea:focus{
  }
 
  .body--white .file-content__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .file__icon svg path {
-     fill: #0e1218
+     fill: #002147
  }
 
  .body--white .profile-info {
@@ -2149,35 +2149,35 @@ textarea:focus{
  }
 
  .body--white .profile-info-about__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .profile-info-about__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .profile-info-instruments__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .profile-info-experience__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .profile-info-experience-box__speciality {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .profile-info-experience-box__text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .profile-info-experience-box__list-item {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .profile-info-instruments__list-item {
-     color: #0e1218;
+     color: #002147;
      border: 1px solid #d7dadd
  }
 
@@ -2186,7 +2186,7 @@ textarea:focus{
  }
 
  .body--white .portfolio__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .portfolio__btn {
@@ -2202,11 +2202,11 @@ textarea:focus{
  }
 
  .body--white .lang__top {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .lang__top svg:last-child path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .body--white .lang-box {
@@ -2214,7 +2214,7 @@ textarea:focus{
  }
 
  .body--white .burger span {
-     background: #0e1218
+     background: #002147
  }
 
  .body--white .header {
@@ -2226,7 +2226,7 @@ textarea:focus{
  }
 
  .body--white .login__title {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .login-info {
@@ -2234,11 +2234,11 @@ textarea:focus{
  }
 
  .body--white .login-info__box-text {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .login-info__box-input {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .login-form-box__label {
@@ -2247,15 +2247,15 @@ textarea:focus{
 
  .body--white .login-form-box__row-input {
      border: 1px solid #d7dadd;
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .login-form-box__row-input:focus {
-     border: 1px solid #0e1218
+     border: 1px solid #002147
  }
 
  .body--white .login-form__bottom-checkbox {
-     color: #0e1218
+     color: #002147
  }
 
  .body--white .login-form__bottom-checkbox .checkmark {
@@ -2281,7 +2281,7 @@ textarea:focus{
      position: sticky;
      top: 0;
      z-index: 100;
-     background: #0e1218
+     background: #ffffff
  }
 
 
@@ -2437,7 +2437,7 @@ textarea:focus{
 
  .header-form .select-items div {
      padding: unset;
-     color: #0e1218;
+     color: #002147;
      margin-bottom: 10px
  }
 
@@ -2572,7 +2572,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -2677,7 +2677,7 @@ textarea:focus{
      font-size: 14px;
      font-weight: 600;
      line-height: 20px;
-     color: #0e1218;
+     color: #002147;
      -webkit-transition: color .3s;
      -o-transition: color .3s;
      transition: color .3s
@@ -2725,7 +2725,7 @@ textarea:focus{
      align-items: center;
      border-right: 1px solid #4b515a;
      cursor: pointer;
-     background: #0e1218
+     background: #002147
  }
 
 
@@ -2777,7 +2777,7 @@ textarea:focus{
      padding: 40px 12px;
      padding-top: 40px;
      padding-bottom: 40px;
-     background: #0e1218
+     background: #002147
  }
 
  @media(max-width: 1210px) {
@@ -2914,7 +2914,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -2934,7 +2934,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -2944,7 +2944,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      background: unset;
@@ -2971,7 +2971,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      background: unset
@@ -2982,7 +2982,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      background: unset
@@ -2993,7 +2993,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      background: unset
@@ -3004,7 +3004,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      background: unset
@@ -3015,7 +3015,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      background: unset
@@ -3080,7 +3080,7 @@ textarea:focus{
      align-items: center;
      border-radius: 4px;
      background: #7d838c;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -3213,7 +3213,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      height: 100%;
      font-weight: 500;
      line-height: 20px;
@@ -3228,7 +3228,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      height: 100%;
      font-weight: 500;
      line-height: 20px
@@ -3239,7 +3239,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      height: 100%;
      font-weight: 500;
      line-height: 20px
@@ -3250,7 +3250,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      height: 100%;
      font-weight: 500;
      line-height: 20px
@@ -3261,7 +3261,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      height: 100%;
      font-weight: 500;
      line-height: 20px
@@ -3272,7 +3272,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      height: 100%;
      font-weight: 500;
      line-height: 20px
@@ -3319,7 +3319,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -3336,7 +3336,7 @@ textarea:focus{
      whitespace: nowrap;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      font-size: 16px;
      line-height: 24px;
@@ -3369,7 +3369,7 @@ textarea:focus{
  }
 
  .card__suptext--pink {
-     background: #ff99c0
+     background: #FEBE10
  }
 
  .card__suptext--green {
@@ -3382,6 +3382,20 @@ textarea:focus{
      text-edge: cap;
      margin-bottom: 10px;
      font-size: 36px;
+     line-height: 36px;
+     font-weight: 600;
+      -webkit-transition: color .3s, color .3s, border .3s;
+     -o-transition: color .3s, color .3s, border .3s;
+     transition: color .3s, color .3s, border .3s
+ }
+
+ .top_nav__title {
+     color: #002147;
+     padding-inline: 15px;
+     leading-trim: both;
+     text-edge: cap;
+     margin-bottom: 0px;
+     font-size: 20px;
      line-height: 36px;
      font-weight: 600;
       -webkit-transition: color .3s, color .3s, border .3s;
@@ -3410,14 +3424,24 @@ textarea:focus{
  }
 
  .card__text {
-     color: #6d9985;
+     color: #8c969a;
      leading-trim: both;
      text-edge: cap;
      font-weight: 600;
      margin-bottom: 15px;
      font-size: 24px;
-     line-height: 24px
+     line-height: 28px
  }
+
+ .card__text2 {
+    color: #00BFFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 24px
+}
 
  @media(max-width: 1210px) {
      .card__text {
@@ -3443,7 +3467,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      -webkit-box-flex: 1;
@@ -3500,7 +3524,7 @@ textarea:focus{
  .card__link:hover {
      background: #fff;
      border: 1px solid #fff;
-     color: #0e1218
+     color: #002147
  }
 
  .card-list {
@@ -3556,7 +3580,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 16px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 24px;
      -webkit-box-align: center;
@@ -3577,9 +3601,26 @@ textarea:focus{
      color: #7d838c;
      leading-trim: both;
      text-edge: cap;
-     font-size: 14px;
+     font-size: 16px;
      line-height: 20px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
+     font-weight: 500
+ }
+
+ .artist_items {
+    margin-top: 10px;
+    list-style: disc;
+    /* margin: 20px; Add margin for proper spacing */
+    padding-left: 20px; /* Ensure bullets are indented */
+ }
+
+ .card-list__text2 {
+     color: #7d838c;
+     leading-trim: both;
+     text-edge: cap;
+     font-size: 17px;
+     line-height: 25px;
+     font-family: Filson Pro;
      font-weight: 500
  }
 
@@ -3599,7 +3640,7 @@ textarea:focus{
      color: #7d838c;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      font-size: 14px;
      line-height: 20px;
@@ -3734,7 +3775,7 @@ textarea:focus{
  }
 
  .card-options__link span {
-     color: #0e1218;
+     color: #002147;
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
@@ -3809,7 +3850,7 @@ textarea:focus{
  .card-box__link:hover {
      background: #fff;
      border: 1px solid #fff;
-     color: #0e1218
+     color: #002147
  }
 
  .card-box__inner {
@@ -3832,7 +3873,7 @@ textarea:focus{
  .card-box__poster {
      width: 100%;
      border-radius: 25px;
-     background: #0e1218;
+     background: #002147;
      position: relative;
      height: 250px;
      max-height: 250px;
@@ -3901,7 +3942,7 @@ textarea:focus{
      border-radius: 10px;
      background: #fff;
      padding: 12px 16px;
-     color: #0e1218;
+     color: #002147;
      text-align: right;
      leading-trim: both;
      text-edge: cap;
@@ -3980,7 +4021,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 14px;
      line-height: 20px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500
  }
 
@@ -4138,7 +4179,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -4173,7 +4214,7 @@ textarea:focus{
      -ms-flex-align: center;
      align-items: center;
      background: #fff;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -4234,12 +4275,12 @@ textarea:focus{
 
  .paging__list-link:hover {
      background: #fff;
-     color: #0e1218;
+     color: #002147;
      border: 1px solid #fff
  }
 
  .paging__list-link:hover svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .paging__list-link svg path {
@@ -4277,7 +4318,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -4505,7 +4546,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -4741,7 +4782,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -4902,7 +4943,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -5020,7 +5061,7 @@ textarea:focus{
  .section-top-content__buttons-link:hover {
      background: #fff;
      border: 1px solid #fff;
-     color: #0e1218
+     color: #002147
  }
 
  .section-top-content__buttons-link--purple {
@@ -5215,7 +5256,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -5243,7 +5284,7 @@ textarea:focus{
 
  .tabs__btn--active span {
      background: #fff;
-     color: #0e1218
+     color: #002147
  }
 
  .courses-section-overview {
@@ -5328,7 +5369,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 16px;
      line-height: 24px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500
  }
 
@@ -5407,7 +5448,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 16px;
      line-height: 24px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500
  }
 
@@ -5536,7 +5577,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 14px;
      line-height: 20px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500
  }
 
@@ -5585,7 +5626,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5595,7 +5636,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5605,7 +5646,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5615,7 +5656,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5625,7 +5666,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5646,7 +5687,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 14px;
      line-height: 20px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      min-height: 100px
  }
@@ -5702,7 +5743,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5712,7 +5753,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5722,7 +5763,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5732,7 +5773,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5742,7 +5783,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -5822,7 +5863,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 14px;
      line-height: 20px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      -webkit-user-select: none;
      -moz-user-select: none;
@@ -5951,7 +5992,7 @@ textarea:focus{
      text-align: center;
      border-radius: 10px;
      background: #fff;
-     color: #0e1218;
+     color: #002147;
      leading-trim: both;
      text-edge: cap;
      font-weight: 600;
@@ -6025,7 +6066,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      border-bottom: 1px solid #4b515a
@@ -6210,7 +6251,7 @@ textarea:focus{
 
  .courses-section-curriculum-item-box {
      border-radius: 10px;
-     background: #0e1218;
+     background: #002147;
      padding: 20px 24px;
      display: -webkit-box;
      display: -ms-flexbox;
@@ -6254,7 +6295,7 @@ textarea:focus{
      border-radius: 4px;
      background: #6d9985;
      min-width: 50px;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -6271,7 +6312,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 12px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 18px
  }
@@ -6411,7 +6452,7 @@ textarea:focus{
      align-items: center;
      text-align: center;
      padding: 2px 10px;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -6463,7 +6504,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 16px;
      line-height: 24px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500
  }
 
@@ -6524,7 +6565,7 @@ textarea:focus{
  }
 
  .socials__link:hover svg path {
-     fill: #0e1218
+     fill: #002147
  }
 
  .socials__link svg path {
@@ -6669,7 +6710,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -6817,7 +6858,7 @@ textarea:focus{
      color: #fff;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-style: normal;
      font-weight: 500;
      font-size: 16px;
@@ -6880,7 +6921,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 12px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 18px
  }
@@ -7014,7 +7055,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 16px;
      line-height: 24px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      margin-bottom: 30px
  }
@@ -7210,7 +7251,7 @@ textarea:focus{
      color: #fff;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-style: normal;
      font-weight: 500;
      font-size: 16px;
@@ -7344,7 +7385,7 @@ textarea:focus{
      text-align: center;
      border-radius: 10px;
      background: #fff;
-     color: #0e1218;
+     color: #002147;
      leading-trim: both;
      text-edge: cap;
      font-weight: 600
@@ -7453,7 +7494,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 14px;
      line-height: 20px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-style: normal;
      font-weight: 500;
      display: -webkit-box;
@@ -7727,7 +7768,7 @@ textarea:focus{
      margin-bottom: 30px;
      font-size: 16px;
      line-height: 24px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500
  }
 
@@ -7803,7 +7844,7 @@ textarea:focus{
      color: #fff;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      font-size: 16px;
      line-height: 24px
@@ -7911,7 +7952,7 @@ textarea:focus{
      margin-right: auto;
      text-align: center;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -8140,7 +8181,7 @@ textarea:focus{
      color: #fff;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      font-size: 16px;
      line-height: 24px
@@ -8350,7 +8391,7 @@ textarea:focus{
  .heading__title span:first-child {
      position: relative;
      z-index: 1;
-     color: #0e1218;
+     color: #002147;
  }
 
  .heading__title span:first-child::before {
@@ -8452,7 +8493,7 @@ textarea:focus{
  }
 
  .count-item:hover .count-item__icon svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .count-item:nth-child(1) {
@@ -8469,7 +8510,7 @@ textarea:focus{
 
  .count-item:nth-child(4) {
      border: 1px solid #4b515a;
-     background: #0e1218
+     background: #002147
  }
 
  .count-item:nth-child(4) .count-item__text {
@@ -8496,7 +8537,7 @@ textarea:focus{
  .count-item__icon {
      margin-left: auto;
      border-radius: 10px;
-     background: #0e1218;
+     background: #002147;
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
@@ -8540,7 +8581,7 @@ textarea:focus{
  }
 
  .count-item__text {
-     color: #0e1218;
+     color: #002147;
      leading-trim: both;
      text-edge: cap;
      font-weight: 600;
@@ -8562,7 +8603,7 @@ textarea:focus{
  }
 
  .count-item__subtext {
-     color: #0e1218;
+     color: #002147;
      leading-trim: both;
      text-edge: cap;
      font-weight: 600;
@@ -8697,7 +8738,7 @@ textarea:focus{
 
  .swiper-buttons-prev-btn:hover svg path,
  .swiper-buttons-next-btn:hover svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .swiper-buttons-prev-btn svg path,
@@ -8779,7 +8820,7 @@ textarea:focus{
      line-height: 30px;
      font-weight: 600;
      text-align: start;
-     text-shadow: 1px 1px #00BFFF;
+     text-shadow: 1px 1px #002147;
  }
 
  .font-size-20 {
@@ -8814,11 +8855,11 @@ textarea:focus{
  }
 
  .elevate-content__title span {
-     color: #6d9985
+     color: #00BFFF
  }
 
 .index .elevate-content__title span {
-    color: #9981c2;
+    color: #002147;
 }
 
  .elevate-content__link {
@@ -8841,7 +8882,7 @@ textarea:focus{
      font-weight: 600;
      line-height: 20px;
      border-radius: 10px;
-     background: #6d9985;
+     background: #FEBE10;
      -webkit-transition: background .3s;
      -o-transition: background .3s;
      transition: background .3s
@@ -8849,17 +8890,17 @@ textarea:focus{
 
 
 .index  .elevate-content__link  {
-    background: #9981c2;
+    background: #00BFFF;
 }
 
 
 .index  .elevate-content__link:hover  {
-    background: #856dae;
+    background: #00BFFF;
 }
 
 
  .elevate-content__link:hover {
-     background: #598571
+     background: #00BFFF
  }
 
  .elevate-view {
@@ -8911,8 +8952,8 @@ textarea:focus{
 }
 
  .elevate-view__box {
-     width: 300px;
-     height: 300px;
+     width: 400px;
+     height: 400px;
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
@@ -8935,7 +8976,7 @@ textarea:focus{
  }
 
  .elevate-view__box-text {
-     color: #0e1218;
+     color: #002147;
      leading-trim: both;
      text-edge: cap;
      margin-bottom: 8px;
@@ -8963,7 +9004,7 @@ textarea:focus{
  }
 
  .elevate-view__box-subtext {
-     color: #0e1218;
+     color: #002147;
      leading-trim: both;
      text-edge: cap;
      font-weight: 600;
@@ -9262,7 +9303,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -9610,7 +9651,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -9728,7 +9769,7 @@ textarea:focus{
      color: #fff;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      font-size: 16px;
      line-height: 24px
@@ -9757,7 +9798,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      padding: 10px 0;
@@ -9802,7 +9843,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -9870,7 +9911,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -9914,7 +9955,7 @@ textarea:focus{
  }
 
  .product-content-quantity-box__row-btn:hover svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .product-content-quantity-box__row-btn svg path {
@@ -9939,7 +9980,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px;
      background: unset;
@@ -10025,7 +10066,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -10194,7 +10235,7 @@ textarea:focus{
      color: #7d838c;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      font-size: 16px;
      line-height: 24px
@@ -10589,7 +10630,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 12px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 18px
  }
@@ -10599,7 +10640,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 12px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 18px
  }
@@ -10786,7 +10827,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -10922,12 +10963,12 @@ textarea:focus{
 
  .members-section-top-body-box__buttons-link:hover {
      background: #fff;
-     color: #0e1218;
+     color: #002147;
      border: 1px solid #fff
  }
 
  .members-section-top-body-box__buttons-link:hover svg path {
-     stroke: #0e1218
+     stroke: #002147
  }
 
  .members-section-top-body-box__buttons-link--purple {
@@ -11346,7 +11387,7 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -12088,7 +12129,7 @@ textarea:focus{
  }
 
  .post-body-info-box-list__text {
-     color: #0e1218;
+     color: #002147;
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
@@ -12231,7 +12272,7 @@ textarea:focus{
      gap: 30px;
      padding: 40px;
      border-radius: 25px;
-     background: #0e1218;
+     background: #002147;
      margin-bottom: 25px
  }
 
@@ -12300,7 +12341,7 @@ textarea:focus{
 
  .user-card__body-suptext {
      margin-bottom: 10px;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -12475,7 +12516,7 @@ textarea:focus{
      align-items: center;
      text-align: center;
      border-radius: 4px;
-     background: #0e1218;
+     background: #002147;
      padding: 2px 10px;
      color: #fff;
      text-align: center;
@@ -12488,7 +12529,7 @@ textarea:focus{
  }
 
  .file {
-     background: #0e1218;
+     background: #002147;
      border-radius: 10px;
      padding: 25px 40px;
      padding-left: 40px;
@@ -12602,7 +12643,7 @@ textarea:focus{
      justify-content: space-between;
      gap: 30px;
      border-radius: 25px;
-     background: #0e1218;
+     background: #002147;
      -ms-flex-wrap: wrap;
      flex-wrap: wrap;
      row-gap: 15px
@@ -12647,7 +12688,7 @@ textarea:focus{
 
  .group-card-content__suptext {
      margin-bottom: 15px;
-     color: #0e1218;
+     color: #002147;
      text-align: center;
      leading-trim: both;
      text-edge: cap;
@@ -12845,7 +12886,7 @@ textarea:focus{
 
  .login-info {
      border-radius: 10px;
-     background: #0e1218;
+     background: #002147;
      padding: 12px 32px;
      display: -webkit-box;
      display: -ms-flexbox;
@@ -12869,7 +12910,7 @@ textarea:focus{
      color: #fff;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-size: 16px;
      font-weight: 500;
      line-height: 24px
@@ -12879,7 +12920,7 @@ textarea:focus{
      color: #fff;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-size: 16px;
      font-weight: 600;
      line-height: 24px;
@@ -12933,7 +12974,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 14px;
      line-height: 20px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      -webkit-user-select: none;
      -moz-user-select: none;
@@ -13052,7 +13093,7 @@ textarea:focus{
      color: #fff;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-size: 14px;
      font-weight: 500;
      line-height: 20px;
@@ -13091,7 +13132,7 @@ textarea:focus{
      text-edge: cap;
      font-size: 14px;
      line-height: 20px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      padding-right: 50px;
      font-weight: 500
  }
@@ -13141,7 +13182,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -13151,7 +13192,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -13161,7 +13202,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -13171,7 +13212,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -13181,7 +13222,7 @@ textarea:focus{
      leading-trim: both;
      text-edge: cap;
      font-size: 14px;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-weight: 500;
      line-height: 20px
  }
@@ -13209,7 +13250,7 @@ textarea:focus{
      text-align: center;
      leading-trim: both;
      text-edge: cap;
-     font-family: Clash Grotesk;
+     font-family: Filson Pro;
      font-size: 16px;
      font-weight: 500;
      gap: 25px;
@@ -13925,7 +13966,7 @@ textarea:focus{
          bottom: 0;
          width: 100%;
          height: 100%;
-         background: #0e1218;
+         background: #002147;
          display: -webkit-box;
          display: -ms-flexbox;
          display: flex;
@@ -15662,7 +15703,7 @@ color: #222;
 
 .work__single_desc {
     color: #fff;
-    font-family: Clash Grotesk;
+    font-family: Filson Pro;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

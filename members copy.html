@@ -5,16 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVĀ:RANG</title>
+    <title>Design Lab</title>
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/fancybox.css" />
     <link rel="stylesheet" href="css/style.min.css">
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
 </head>
 
 <body >
@@ -29,22 +23,11 @@
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
-                    <!-- <img class="logo__img " src="images/logo.png" alt="img"> -->
-                    <img class="logo__img" src="images/logo3.png"  alt="img">
+                    <img class="logo__img logo__rotate" src="images/logo-img.svg" alt="img">
+                    <img class="logo__text" src="images/logo.svg" alt="img">
                 </a>
-                <!-- <a class="header__logo logo" style="text-align: center; justify-content: center;" href="#">
-                    <img class="logo__text" src="images/logo2.png" height="48px" alt="img">
-                </a> -->
-                
-                <!-- <div class="header__wrapper"><div class="header__lang lang"><div class="lang__top"></div></div></div> -->
                 <div class="header__wrapper">
-                    <div class="header__lang lang"><div class="lang__top">
-                        <p class="top_nav__title" href="#">Mission</p>
-                        <p class="top_nav__title" href="#">Vision</p>
-                        <p class="top_nav__title" href="#">Goals</p>
-                    </div></div>
-                    
-                    <!-- <div class="header__lang lang">
+                    <div class="header__lang lang">
                         <div class="lang__top">
                             <svg width="22" height="16" viewBox="0 0 22 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -1742,8 +1725,8 @@
                                 </span>
                             </a>
                         </div>
-                    </div> -->
-                    <!-- <form class="header__search search" action="#">
+                    </div>
+                    <form class="header__search search" action="#">
                         <button class="search__btn" type="button">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -1755,8 +1738,8 @@
                             </svg>
                         </button>
                         <input class="search__input" type="text" placeholder="Search...">
-                    </form> -->
-                    <!-- <div class="header__user-nav user-nav">
+                    </form>
+                    <div class="header__user-nav user-nav">
                         <a class="user-nav__link" href="#">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -1793,9 +1776,9 @@
                                 4
                             </span>
                         </a>
-                    </div> -->
+                    </div>
                 </div>
-                <!-- <form class="header__form header-form" action="#">
+                <form class="header__form header-form" action="#">
                     <div class="header-form__img">
                         <img class="header-form__img-image" src="images/member-icon-3.png" alt="img">
                     </div>
@@ -1811,7 +1794,7 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                </button> -->
+                </button>
             </div>
         </div>
     </header>
@@ -1833,7 +1816,7 @@
                         </defs>
                     </svg>
                 </div>
-                <nav class="aside__menu menu">
+               <nav class="aside__menu menu">
                     <ul class="menu__list">
                         <li class="menu__list-item">
                             <a class="menu__list-link menu__list-link--active" href="index.html"s>
@@ -1852,7 +1835,7 @@
 
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="about.html">
+                            <a class="menu__list-link" href="blog.html">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="icons">
@@ -1869,12 +1852,12 @@
                                     </g>
                                 </svg>
                                 <span>
-                                    About
+                                    News
                                 </span>
                             </a>
-                                     <div class="popup_menu">  About </div> 
+                                     <div class="popup_menu">  News </div> 
                         </li>
-                        <!-- <li class="menu__list-item">
+                        <li class="menu__list-item">
                             <a class="menu__list-link" href="shop.html">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -1907,7 +1890,7 @@
                                 </span>
                             </a>
                             <div class="popup_menu">  Groups </div> 
-                        </li> -->
+                        </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="members.html">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -1932,37 +1915,12 @@
                                     </g>
                                 </svg>
                                 <span>
-                                    Artists
+                                    Members
                                 </span>
                             </a>
-                             <div class="popup_menu">  Artists </div> 
+                             <div class="popup_menu">  Members </div> 
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" data-fancybox="" href="#report-popup" >
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g id="contact-icon">
-                                        <!-- Envelope -->
-                                        <path id="envelope" 
-                                            d="M2 7C2 5.89543 2.89543 5 4 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H4C2.89543 19 2 18.1046 2 17V7Z" 
-                                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path id="envelope-flap"
-                                            d="M2 7L12 13L22 7" 
-                                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        
-                                        <!-- Phone -->
-                                        <!-- <path id="phone" 
-                                            d="M16 3H19C19.5523 3 20 3.44772 20 4V7C20 7.55228 19.5523 8 19 8H17C16.4477 8 16 7.55228 16 7V6H15C13.3431 6 12 7.34315 12 9V15C12 16.6569 13.3431 18 15 18H16V17C16 16.4477 16.4477 16 17 16H19C19.5523 16 20 16.4477 20 17V20C20 20.5523 19.5523 21 19 21H15C12.7909 21 11 19.2091 11 17V9C11 6.79086 12.7909 5 15 5H16V4C16 3.44772 16.4477 3 17 3H16Z" 
-                                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /> -->
-                                    </g>
-                                </svg>
-                                
-                                <span>
-                                    Contact
-                                </span>
-                            </a>
-                             <div class="popup_menu">  Contact </div> 
-                        </li>
-                        <!-- <li class="menu__list-item">
                             <a class="menu__list-link" href="courses.html">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -2046,909 +2004,62 @@
                             
                              <div class="popup_menu">  Report </div> 
                             
-                        </li> -->
+                        </li>
                     </ul>
                 </nav>
                 
             </aside>
-
-            <!-- Begin Slider Area -->
-            <div class="slider-area">
-
-                <!-- Main Slider -->
-                <div id="home" class="swiper-container main-slider swiper-arrow with-bg_white">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide animation-style-01">
-                            <div class="slide-inner bg-height" style="background-image: url('images/Banner-2.jpg');">
-                                <div class="container">
-                                    <div class="slide-content">
-                                        <h1 class=" title2">Unleashing Creativity</h1>
-                                        <h2 class="elevate-content__title2">Unleashing Creativity, Connecting Artists, Inspiring Communities</h2>
-                                        <!-- <h4 class="sub-title mb-3">Unleashing Creativity, Connecting Artists, Inspiring Communities</h4> -->
-                                        <p class="short-desc-2 font-size-20 mb-7">At Svarang, we believe art has the power to transcend boundaries and spark meaningful connections. Our initiative is a vibrant platform that celebrates creativity in all its forms, offering a space for artists to showcase their talent and art enthusiasts to explore unique masterpieces.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide animation-style-01">
-                            <div class="slide-inner bg-height" style="background-image: url('images/Banner-1.jpg');">
-                                <div class="container">
-                                    <div class="slide-content">
-                                        <h1 class=" title2">Unleashing Creativity</h1>
-                                        <h2 class="elevate-content__title2">Where Vision Meets Craftsmanship</h2>
-                                        <!-- <h4 class="sub-title mb-3">Unleashing Creativity, Connecting Artists, Inspiring Communities</h4> -->
-                                        <p class="short-desc-2 font-size-20 mb-7">At Svarang, we believe art has the power to transcend boundaries and spark meaningful connections. Our initiative is a vibrant platform that celebrates creativity in all its forms, offering a space for artists to showcase their talent and art enthusiasts to explore unique masterpieces.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide animation-style-01">
-                            <div class="slide-inner bg-height" style="background-image: url('images/Banner-3.jpg');">
-                                <div class="container">
-                                    <div class="slide-content">
-                                        <h1 class=" title2">Unleashing Creativity</h1>
-                                        <h2 class="elevate-content__title2">Unleashing Creativity, Connecting Artists, Inspiring Communities</h2>
-                                        <!-- <h4 class="sub-title mb-3">Unleashing Creativity, Connecting Artists, Inspiring Communities</h4> -->
-                                        <p class="short-desc-2 font-size-20 mb-7">At Svarang, we believe art has the power to transcend boundaries and spark meaningful connections. Our initiative is a vibrant platform that celebrates creativity in all its forms, offering a space for artists to showcase their talent and art enthusiasts to explore unique masterpieces.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide animation-style-01">
-                            <div class="slide-inner bg-height" style="background-image: url('images/Banner-7.jpg');">
-                                <div class="container">
-                                    <div class="slide-content">
-                                        <h1 class=" title2">Unleashing Creativity</h1>
-                                        <h2 class="elevate-content__title2">Unleashing Creativity, Connecting Artists, Inspiring Communities</h2>
-                                        <!-- <h4 class="sub-title mb-3">Unleashing Creativity, Connecting Artists, Inspiring Communities</h4> -->
-                                        <p class="short-desc-2 font-size-20 mb-7">At Svarang, we believe art has the power to transcend boundaries and spark meaningful connections. Our initiative is a vibrant platform that celebrates creativity in all its forms, offering a space for artists to showcase their talent and art enthusiasts to explore unique masterpieces.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide animation-style-01">
-                            <div class="slide-inner bg-height" style="background-image: url('images/Banner-5.jpg');">
-                                <div class="container">
-                                    <div class="slide-content">
-                                        <h1 class=" title2">Unleashing Creativity</h1>
-                                        <h2 class="elevate-content__title2">Unleashing Creativity, Connecting Artists, Inspiring Communities</h2>
-                                        <!-- <h4 class="sub-title mb-3">Unleashing Creativity, Connecting Artists, Inspiring Communities</h4> -->
-                                        <p class="short-desc-2 font-size-20 mb-7">At Svarang, we believe art has the power to transcend boundaries and spark meaningful connections. Our initiative is a vibrant platform that celebrates creativity in all its forms, offering a space for artists to showcase their talent and art enthusiasts to explore unique masterpieces.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination with-bg d-md-none"></div>
-
-                    <!-- Add Arrows -->
-                    <!-- <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div> -->
-                </div>
-
-            </div>
-            <!-- Slider Area End Here -->
-            
-            <section class="main__heading heading">
+            <section class="main__members members">
                 <div class="container">
-                    <h1 class="heading__title">
-                        <span>
-                            Explore 
-                        </span>
-                        a 
-                        <span>
-                            World 
-                        </span>
-                        of Art
+                    <h1 class="members__title title">
+                        Members
                     </h1>
-                    <p class="card__title" href="#">
-                        Where Vision Meets Craftsmanship
-                    </p>
-                    <p class="card__description">
-                        Dive into a diverse collection of artistic expressions, from contemporary to traditional, digital to handmade. Whether you're an artist seeking exposure or an admirer looking for inspiration, Svarang is your gateway to the world of creativity.
-                    </p>
-                </div>
-            </section>
-            <!-- <section class="main__count count">
-                <div class="container">
-                    <div class="count__inner">
-                        <a class="count__item count-item" href="members.html">
-                            <div class="count-item__icon">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <p class="count-item__text">
+                    <div class="members__filters-panel filters-panel">
+                        <div class="filters-panel__tags tags">
+                            <a class="tags__tag tags__tag--active" href="#">
+                                All Members
                                 <span>
-                                    39K+
+                                    23
                                 </span>
-                            </p>
-                            <p class="count-item__subtext">
-                                members
-                            </p>
-                        </a>
-                        <a class="count__item count-item" href="groups.html">
-                            <div class="count-item__icon">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <p class="count-item__text">
+                            </a>
+                            <a class="tags__tag tags__tag" href="#">
+                                Following
                                 <span>
-                                    230+
+                                    10
                                 </span>
-                            </p>
-                            <p class="count-item__subtext">
-                                groups
-                            </p>
-                        </a>
-                        <a class="count__item count-item" href="courses.html">
-                            <div class="count-item__icon">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <p class="count-item__text">
-                                <span>
-                                    50+
-                                </span>
-                            </p>
-                            <p class="count-item__subtext">
-                                online courses
-                            </p>
-                        </a>
-                        <a class="count__item count-item" href="#">
-                            <div class="count-item__icon">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <p class="count-item__text">
-                                <span>
-                                    4.9
-                                </span>
-                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons" clip-path="url(#clip0_114_9488)">
-                                        <path id="Vector"
-                                            d="M11.9687 4.60317C11.8902 4.36018 11.6746 4.1876 11.4197 4.16462L7.95614 3.85013L6.58656 0.644511C6.48558 0.40958 6.25559 0.257507 6.00006 0.257507C5.74453 0.257507 5.51454 0.40958 5.41356 0.64506L4.04399 3.85013L0.579908 4.16462C0.325385 4.18815 0.110414 4.36018 0.0314019 4.60317C-0.0476102 4.84616 0.0253592 5.11267 0.2179 5.28068L2.83592 7.5767L2.06392 10.9773C2.00744 11.2274 2.10448 11.4858 2.31195 11.6358C2.42346 11.7164 2.55393 11.7574 2.68549 11.7574C2.79893 11.7574 2.91145 11.7268 3.01244 11.6664L6.00006 9.88077L8.98659 11.6664C9.20513 11.7978 9.48062 11.7858 9.68762 11.6358C9.89518 11.4854 9.99214 11.2268 9.93565 10.9773L9.16366 7.5767L11.7817 5.28113C11.9742 5.11267 12.0477 4.84661 11.9687 4.60317Z"
-                                            fill="#F9D442" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_114_9488">
-                                            <rect width="12" height="12" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </p>
-                            <p class="count-item__subtext">
-                                320+ ratings
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </section> -->
-           
-            <!-- <section class="main__groups-section groups-section">
-                <div class="container">
-                    <div class="groups-section__top groups-section-top">
-                        <h2 class="groups-section-top__title">
-                            Discover Our Artists
-                        </h2>
-                        <div class="groups-section__buttons swiper-buttons">
-                            <div class="groups-section__buttons-prev swiper-buttons-prev-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="groups-section__buttons-next swiper-buttons-next-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="groups-section__swiper groups-section-swiper swiper">
-                        <div class="swiper-wrapper">
-                            <div class="groups-section-swiper__slide groups-section-slide swiper-slide">
-                                <div class="groups-section__card card">
-                                    <div class="card__inner">
-                                        <p class="card__suptext card__suptext--green">
-                                            private Group
-                                        </p>
-                                        <div class="card__options card-options">
-                                            <div class="card-options__btn">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                            <div class="card-options__inner">
-                                                <a class="card-options__link" href="#">
-                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M2.66659 13.3333H13.3333C13.6869 13.3333 14.026 13.1929 14.2761 12.9428C14.5261 12.6928 14.6666 12.3536 14.6666 12V5.33333C14.6666 4.97971 14.5261 4.64057 14.2761 4.39052C14.026 4.14048 13.6869 4 13.3333 4H8.04659C7.82698 3.99886 7.61105 3.9435 7.41798 3.83883C7.22492 3.73415 7.0607 3.58341 6.93992 3.4L6.39325 2.6C6.27247 2.41659 6.10825 2.26585 5.91519 2.16117C5.72212 2.0565 5.50619 2.00114 5.28659 2H2.66659C2.31296 2 1.97382 2.14048 1.72378 2.39052C1.47373 2.64057 1.33325 2.97971 1.33325 3.33333V12C1.33325 12.7333 1.93325 13.3333 2.66659 13.3333Z"
-                                                            stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
-                                                            stroke-linejoin="round" />
-                                                        <path d="M6 8.66669H10" stroke="#0E1218" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg>
-                                                    <span>
-                                                        Leave Group
-                                                    </span>
-                                                </a>
-                                                <a class="card-options__link" href="#">
-                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
-                                                            stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
-                                                            stroke-linejoin="round" />
-                                                    </svg>
-                                                    <span>
-                                                        Subscribe
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <a class="card__title" href="#">
-                                            Mobile Apps
-                                        </a>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    Active 2 days ago
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    10k Members
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="#">
-                                            <img class="card-box__poster-img" src="images/new/1-1.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="groups-section-swiper__slide groups-section-slide swiper-slide">
-                                <div class="groups-section__card card">
-                                    <div class="card__inner">
-                                        <p class="card__suptext card__suptext--green">
-                                            private Group
-                                        </p>
-                                        <div class="card__options card-options">
-                                            <div class="card-options__btn">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                            <div class="card-options__inner">
-                                                <a class="card-options__link" href="#">
-                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M2.66659 13.3333H13.3333C13.6869 13.3333 14.026 13.1929 14.2761 12.9428C14.5261 12.6928 14.6666 12.3536 14.6666 12V5.33333C14.6666 4.97971 14.5261 4.64057 14.2761 4.39052C14.026 4.14048 13.6869 4 13.3333 4H8.04659C7.82698 3.99886 7.61105 3.9435 7.41798 3.83883C7.22492 3.73415 7.0607 3.58341 6.93992 3.4L6.39325 2.6C6.27247 2.41659 6.10825 2.26585 5.91519 2.16117C5.72212 2.0565 5.50619 2.00114 5.28659 2H2.66659C2.31296 2 1.97382 2.14048 1.72378 2.39052C1.47373 2.64057 1.33325 2.97971 1.33325 3.33333V12C1.33325 12.7333 1.93325 13.3333 2.66659 13.3333Z"
-                                                            stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
-                                                            stroke-linejoin="round" />
-                                                        <path d="M6 8.66669H10" stroke="#0E1218" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg>
-
-                                                    <span>
-                                                        Leave Group
-                                                    </span>
-                                                </a>
-                                                <a class="card-options__link" href="#">
-                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
-                                                            stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
-                                                            stroke-linejoin="round" />
-                                                    </svg>
-                                                    <span>
-                                                        Subscribe
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <a class="card__title" href="#">
-                                            Readymag
-                                        </a>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    Active 19 days ago
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    872 Members
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="#">
-                                              <img class="card-box__poster-img" src="images/new/1-2.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="groups-section-swiper__slide groups-section-slide swiper-slide">
-                                <div class="groups-section__card card">
-                                    <div class="card__inner">
-                                        <p class="card__suptext card__suptext--pink">
-                                            Public Group
-                                        </p>
-                                        <div class="card__options card-options">
-                                            <div class="card-options__btn">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
-                                            <div class="card-options__inner">
-                                                <a class="card-options__link" href="#">
-                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M2.66659 13.3333H13.3333C13.6869 13.3333 14.026 13.1929 14.2761 12.9428C14.5261 12.6928 14.6666 12.3536 14.6666 12V5.33333C14.6666 4.97971 14.5261 4.64057 14.2761 4.39052C14.026 4.14048 13.6869 4 13.3333 4H8.04659C7.82698 3.99886 7.61105 3.9435 7.41798 3.83883C7.22492 3.73415 7.0607 3.58341 6.93992 3.4L6.39325 2.6C6.27247 2.41659 6.10825 2.26585 5.91519 2.16117C5.72212 2.0565 5.50619 2.00114 5.28659 2H2.66659C2.31296 2 1.97382 2.14048 1.72378 2.39052C1.47373 2.64057 1.33325 2.97971 1.33325 3.33333V12C1.33325 12.7333 1.93325 13.3333 2.66659 13.3333Z"
-                                                            stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
-                                                            stroke-linejoin="round" />
-                                                        <path d="M6 8.66669H10" stroke="#0E1218" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg>
-
-                                                    <span>
-                                                        Leave Group
-                                                    </span>
-                                                </a>
-                                                <a class="card-options__link" href="#">
-                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
-                                                            stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
-                                                            stroke-linejoin="round" />
-                                                    </svg>
-                                                    <span>
-                                                        Subscribe
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <a class="card__title" href="#">
-                                            UX-research
-                                        </a>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    Active 1 month ago
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    300 Members
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="#">
-                                              <img class="card-box__poster-img" src="images/new/1-3.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-            <section class="main__elevate elevate">
-                <div class="container">
-                    <div class="elevate__inner">
-                        <div class="elevate__content elevate-content">
-                            <h2 class="elevate-content__title">
-                                Celebrating <br>
-                                Talent, 
-                                <span>
-                                    One Story <br>
-                                </span>
-                                at a Time
-                            </h2>
-                            <p class="card__description">
-                                Meet the faces behind the masterpieces. Explore the portfolios of talented artists, each bringing their unique perspective and passion to life through their work.
-                            </p>
-                            <a class="elevate-content__link" data-fancybox="" href="members.html">
-                                Explore Artists
                             </a>
                         </div>
-                        <div class="elevate__view elevate-view">
-                            <div class="elevate-view__box">
-                                <p class="elevate-view__box-text">
-                                    17K+
-                                </p>
-                                <p class="elevate-view__box-subtext">
-                                    professionals
-                                </p>
+                        <form class="filters-panel__form filters-panel-form" action="#">
+                            <div class="filters-panel-form__search search">
+                                <button class="search__btn" type="button">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11 19C15.4182 19 19 15.4183 19 11C19 6.58172 15.4182 3 11 3C6.58169 3 2.99997 6.58172 2.99997 11C2.99997 15.4183 6.58169 19 11 19Z"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M21 21L16.65 16.65" stroke="white" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <input class="search__input" type="text" placeholder="Search...">
                             </div>
-                            <img class="elevate-view__img" src="images/member-icon-2.png" alt="img">
-                            <img class="elevate-view__img" src="images/member-icon-16.png" alt="img">
-                            <img class="elevate-view__img" src="images/member-icon-8.png" alt="img">
-                            <img class="elevate-view__img" src="images/member-icon-3.png" alt="img">
-                            <img class="elevate-view__img" src="images/member-icon-25.png" alt="img">
-                        </div>
+                            <div class="filters-panel-form__select custom-select">
+                                <select>
+                                    <option value="0">Newest Registered</option>
+                                    <option value="1">Newest Registered</option>
+                                    <option value="2">Newest Registered 2</option>
+                                </select>
+                            </div>
+                        </form>
                     </div>
-                </div>
-            </section>
-
-            <section class="main__heading heading">
-                <div class="container">
-                    <h1 class="heading__title">
-                        <span>
-                            Our  
-                        </span>
-                        Vision 
-                        
-                    </h1>
-                    <p class="card__title" href="#">
-                        Empowering Artists, Enriching Communities
-                    </p>
-                    <p class="card__description">
-                        Svarang is more than a platform—it's a movement to nurture creativity, provide opportunities, and foster a global appreciation for art.
-                    </p>
-                </div>
-            </section>
-
-            
-
-            <section class="main__groups-section groups-section">
-                <div class="container">
-                    <h2 class="elevate-content__title">
-                        Join the 
-                        <span>
-                            Journey <br>
-                        </span>
-                    </h2>
-                    <div class="groups-section__top groups-section-top">
-                        <p class="card__title" href="#">
-                            Be Part of Something Extraordinary
-                        </p>
-                        <div class="groups-section__buttons swiper-buttons">
-                            <div class="groups-section__buttons-prev swiper-buttons-prev-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="groups-section__buttons-next swiper-buttons-next-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="groups-section__swiper groups-section-swiper swiper">
-                        <div class="swiper-wrapper">
-                            <div class="groups-section-swiper__slide groups-section-slide swiper-slide">
-                                <div class="groups-section__card card">
-                                    <div class="card__inner">
-                                        <a class="card__title" href="#">
-                                            Artists
-                                        </a>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    Showcase your work and reach a wider audience
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="#">
-                                            <img class="card-box__poster-img" src="images/new/1-1.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="groups-section-swiper__slide groups-section-slide swiper-slide">
-                                <div class="groups-section__card card">
-                                    <div class="card__inner">
-                                        
-                                        <a class="card__title" href="#">
-                                            Collectors
-                                        </a>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    Discover one-of-a-kind pieces to adorn your space
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="#">
-                                              <img class="card-box__poster-img" src="images/new/1-2.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="groups-section-swiper__slide groups-section-slide swiper-slide">
-                                <div class="groups-section__card card">
-                                    <div class="card__inner">
-
-                                        <a class="card__title" href="#">
-                                            Enthusiasts
-                                        </a>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    Immerse yourself in the transformative world of art
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="#">
-                                              <img class="card-box__poster-img" src="images/new/1-3.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="main__groups-section groups-section">
-                <div class="container">
-                    <h2 class="elevate-content__title">
-                        Why 
-                        <span>
-                            Svarang? <br>
-                        </span>
-                    </h2>
-                    <div class="groups-section__top groups-section-top">
-                        <p class="card__title" href="#">
-                            Innovative. Inclusive. Inspiring.
-                        </p>
-                        <div class="groups-section__buttons swiper-buttons">
-                            <div class="groups-section__buttons-prev swiper-buttons-prev-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="groups-section__buttons-next swiper-buttons-next-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="groups-section__swiper groups-section-swiper swiper">
-                        <div class="swiper-wrapper">
-                            <div class="groups-section-swiper__slide groups-section-slide swiper-slide">
-                                <div class="groups-section__card card">
-                                    <div class="card__inner">
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text2">
-                                                    A curated platform tailored for creative professionals
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="#">
-                                            <img class="card-box__poster-img" src="images/new/1-1.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="groups-section-swiper__slide groups-section-slide swiper-slide">
-                                <div class="groups-section__card card">
-                                    <div class="card__inner">
-                                        
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text2">
-                                                    A supportive community that values collaboration and innovation.
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="#">
-                                              <img class="card-box__poster-img" src="images/new/1-2.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="groups-section-swiper__slide groups-section-slide swiper-slide">
-                                <div class="groups-section__card card">
-                                    <div class="card__inner">
-
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text2">
-                                                    A commitment to making art accessible and celebrated.
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="#">
-                                              <img class="card-box__poster-img" src="images/new/1-3.jpg" alt="img">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="main__heading heading">
-                <div class="container">
-                    <h1 class="heading__title">
-                        <span>
-                            Get 
-                        </span>
-                        Started 
-                        <span>
-                            Today!
-                        </span>                        
-                    </h1>
-                    <p class="card__description">
-                        Whether you're here to admire, acquire, or create, Svarang welcomes you with open arms. Let’s celebrate art together—explore, connect, and inspire.
-                    </p>
-                </div>
-            </section>
-
-            <section class="main__elevate elevate">
-                <div class="container">
-                    <div class="elevate__inner">
-                        <div class="elevate__view elevate-view">
-                            <img class="elevate-view__box" src="images/member-icon-8.png" alt="img">
-                        </div>
-                        <div class="elevate__content elevate-content">
-                            <h2 class="elevate-content__title">
-                                Our 
-                                <span>
-                                    Story
-                                </span>
-                            </h2>
-                            <p class="card__description">
-                                Svarang Art Initiative was born out of a passion for creativity and a vision to build a thriving community of artists and art enthusiasts. Rooted in the belief that art has the power to inspire, heal, and connect, Svarang is dedicated to nurturing talent, celebrating diversity, and creating opportunities for artistic growth.
-                            </p>
-                            <!-- <a class="elevate-content__link" data-fancybox="" href="#login-popup">
-                                Explore Artists
-                            </a> -->
-                        </div>
-                        
-                    </div>
-                </div>
-            </section>
-
-            <section class="main__elevate elevate">
-                <div class="container">
-                    <div class="elevate__inner">
-                        <div class="elevate__content elevate-content">
-                            <h2 class="elevate-content__title">
-                                Our  
-                                <span>
-                                    Mission
-                                </span>
-                            </h2>
-                            <p class="card__description">
-                                To empower artists by providing a platform that showcases their work to a global audience while fostering a deeper appreciation for art in all its forms. Svarang is a bridge between creators, entrepreneurs, patrons and art lovers, designed to make art accessible and meaningful for everyone.
-                            </p>
-                            <!-- <a class="elevate-content__link" data-fancybox="" href="#login-popup">
-                                Explore Artists
-                            </a> -->
-                        </div>
-                        <div class="elevate__view elevate-view">
-                            <img class="elevate-view__box" src="images/member-icon-16.png" alt="img">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="main__elevate elevate">
-                <div class="container">
-                    <div class="elevate__inner">
-                        <div class="elevate__view elevate-view">
-                            <img class="elevate-view__box" src="images/member-icon-2.png" alt="img">
-                        </div>
-                        <div class="elevate__content elevate-content">
-                            <h2 class="elevate-content__title">
-                                Our 
-                                <span>
-                                    Vision
-                                </span>
-                            </h2>
-                            <p class="card__description">
-                                At Svarang, we envision a world where creativity knows no bounds—a space where artists are celebrated, their voices amplified, and their works cherished. We aim to be a beacon of innovation, inclusivity, and inspiration in the art world.
-                            </p>
-                            <!-- <a class="elevate-content__link" data-fancybox="" href="#login-popup">
-                                Explore Artists
-                            </a> -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="main__members members">
-                <div class="container">
-                    <h2 class="elevate-content__title">
-                        What
-                        <span>
-                            We Do
-                        </span>
-                        ?
-                    </h2>
                     <div class="members__inner">
                         <div class="members__card card">
                             <div class="card__inner">
-                                <h3 class="card__title">
-                                    Empower Artists
-                                    <span>
-                                        
-                                    </span>
-                                </h3>
-                                <a class="card__text" href="members-page.html">
-                                    We provide resources, education, and opportunities for artists to showcase their talent and build sustainable careers.
-                                </a>
-                                
-                            </div>
-                        </div>
-                        <div class="members__card card">
-                            <div class="card__inner">
-                                <h3 class="card__title">
-                                    Curate Excellence
-                                </h3>
-                                <a class="card__text" href="members-page.html">
-                                    Our platform is a hub for thoughtfully curated artwork, ranging from traditional forms to modern expressions, ensuring a unique experience for art lovers.
-                                </a>
-                                
-                            </div>
-                        </div>
-                        <div class="members__card card">
-                            <div class="card__inner">
-                                <h3 class="card__title">
-                                    Foster Community
-                                </h3>
-                                <a class="card__text" href="members-page.html">
-                                    Svarang is more than a platform—it's a community where artists and admirers can connect, collaborate, and celebrate creativity.
-                                </a>
-                                
-                            </div>
-                        </div>
-                </div>
-            </section>
-
-            <section class="main__members members">
-                <div class="container">
-                    <h2 class="elevate-content__title">
-                        Why  
-                        <span>
-                            Choose
-                        </span>
-                        Svarang?
-                    </h2>
-                    <div class="members__inner">
-                        <div class="members__card card">
-                            <div class="card__inner">
-                                <h3 class="card__title">
-                                    Artist-Centric Approach
-                                    <span>
-                                        
-                                    </span>
-                                </h3>
-                                <br>
-                                <a class="card__text" href="members-page.html">
-                                    We prioritize the needs of artists, ensuring their creative freedom and offering support at every stage of their journey.
-                                </a>
-                                
-                            </div>
-                        </div>
-                        <div class="members__card card">
-                            <div class="card__inner">
-                                <h3 class="card__title">
-                                    Diverse Opportunities
-                                </h3>
-                                <br>
-                                <a class="card__text" href="members-page.html">
-                                    From exhibitions and sales to mentorship and collaboration, we open doors for artists to thrive in an ever-evolving art landscape.
-                                </a>
-                                
-                            </div>
-                        </div>
-                        <div class="members__card card">
-                            <div class="card__inner">
-                                <h3 class="card__title">
-                                    Celebrating All Forms of Art
-                                </h3>
-                                <br>
-                                <a class="card__text" href="members-page.html">
-                                    Whether it’s visual art, sculpture, digital creations, or experimental pieces, Svarang embraces and promotes all forms of creativity.
-                                </a>
-                                
-                            </div>
-                        </div>
-                </div>
-            </section>
-
-            <section class="main__heading heading">
-                <div class="container">
-                    <h1 class="heading__title">
-                        <span>
-                            Join  
-                        </span>
-                        US 
-                        
-                    </h1>
-                    
-                    <p class="card__description">
-                        Become a part of the Svarang family and contribute to a world that values and uplifts artistic expression. Whether you're an artist, collector, or admirer, there’s a place for you here.
-                    </p>
-                    <p class="card__title" href="#">
-                        Together, let’s shape a vibrant future for art.
-                    </p>
-                </div>
-            </section>
-
-            <section class="main__courses courses">
-                <div class="container">
-                    <h1 class="courses__title title">
-                        Artists
-                    </h1>
-                    <div class="courses__inner">
-                        <div class="courses__card card card--courses">
-                            <div class="card__inner">
-                                <p style="margin-left: 2px;" class="card__suptext card__suptext--pink">
-                                    Realism
+                                <p class="card__suptext">
+                                    3d artist
                                 </p>
-                                <!-- <div class="card__options card-options">
+                                <div class="card__options card-options">
                                     <div class="card-options__btn">
                                         <span></span>
                                         <span></span>
@@ -2956,777 +2067,670 @@
                                     </div>
                                     <div class="card-options__inner">
                                         <a class="card-options__link" href="#">
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
                                                 <path
-                                                  d="M9.33333 2H11.3333C11.7015 2 12 2.29848 12 2.66667V4.66667C12 5.03486 11.7015 5.33333 11.3333 5.33333H9.33333V7.33333H11.3333C11.7015 7.33333 12 7.63181 12 8V10C12 10.3682 11.7015 10.6667 11.3333 10.6667H9.33333V14C9.33333 14.3682 9.03486 14.6667 8.66667 14.6667H6.66667C6.29848 14.6667 6 14.3682 6 14V10.6667H4.33333C3.96514 10.6667 3.66667 10.3682 3.66667 10V8C3.66667 7.63181 3.96514 7.33333 4.33333 7.33333H6V5.33333H4.33333C3.96514 5.33333 3.66667 5.03486 3.66667 4.66667V2.66667C3.66667 2.29848 3.96514 2 4.33333 2H6.33333"
-                                                  stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                              </svg>
-                                              
+                                                    d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M12.6667 5.33331V9.33331" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.6667 7.33331H10.6667" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                             <span>
-                                                Facebook
+                                                Add Friend
                                             </span>
                                         </a>
                                         <a class="card-options__link" href="#">
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <rect x="2.66667" y="2.66667" width="10.6667" height="10.6667" rx="3" stroke="#0E1218" stroke-width="1.5" />
-                                                <circle cx="8" cy="8" r="3" stroke="#0E1218" stroke-width="1.5" />
-                                                <circle cx="11.3333" cy="4.66667" r="0.666667" fill="#0E1218" />
-                                              </svg>
-                                              
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
                                             <span>
-                                                Insta
+                                                Follow
                                             </span>
                                         </a>
                                     </div>
-                                </div> -->
-                                <div class="card__box card-box">
-                                    <div >
-                                        <a class="card__title" href="courses-page.html">
-                                            Vikrant Shitole 
-                                        </a>
-                                        <br/>
-                                        <br/>
-                                        <a class="card__text" href="courses-page.html">
-                                            The Master of Realism
-                                        </a>
-                                        <div style="margin-top: 5px;">
-                                            <a class="card-box__link" href="#">
-                                                Explore Portfolio
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="card-box__person-img card-person-img">
-                                        <img class="card-person-img__image" src="images/member-icon-2.png" alt="img">
-                                        <span class="card-person-img__status">
-
-                                        </span>
-                                    </div>
-                                    
                                 </div>
-                                <ul style="margin-top: 5px;" class="card__list card-list">
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            Watercolors
-                                        </p>
-                                    </li>
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            Portraits
-                                        </p>
-                                    </li>
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            Landscapes
-                                        </p>
-                                    </li>
-                                </ul>
-
-                                <ul class="card__list card-list">
-                                    <li class="card-list__item">
-                                        <p class="card-list__rait">
-                                            <span>
-                                                Vikrant Shitole is an acclaimed Indian artist celebrated for his breathtaking mastery of realism. With a keen eye for detail and a heart deeply inspired by life’s beauty, Vikrant creates artworks that evoke awe and emotion.
-                                            </span>
-                                        </p>
-                                    </li>
-                                </ul>
-                                
-
-                                <ul class="artist_items">
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            ⦿ Featured in numerous exhibitions across India and internationally.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <ul class="artist_items">
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            ⦿ Recipient of prestigious awards for his exceptional contributions to art.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <ul class="artist_items">
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            ⦿ Known for his workshops, mentoring aspiring artists to refine their skills.
-                                        </p>
-                                    </li>
-                                </ul>
-                                
-                                <ul style="margin-top: 20px;" class="">
-                                    <li class="card-list__item">
-                                        <p class="card-list__rait">
-                                            <span>
-                                                Through his work, Vikrant bridges the gap between reality and imagination, offering a lens into the extraordinary within the ordinary.
-                                            </span>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="courses__card card card--courses">
-                            <div class="card__inner">
-                                <p style="margin-left: 2px;" class="card__suptext card__suptext--pink">
-                                    Abstract and contemporary art
+                                <h3 class="card__title">
+                                    Anthony
+                                    <span>
+                                        Clark
+                                    </span>
+                                </h3>
+                                <a class="card__text" href="members-page.html">
+                                    @anthony-clark
+                                </a>
+                                <p class="card__subtext">
+                                    Joined April 2019
                                 </p>
                                 <div class="card__box card-box">
-                                    <div >
-                                        <a class="card__title" href="courses-page.html">
-                                            Kanchan Todi
-                                        </a>
-                                        <br/>
-                                        <br/>
-                                        <a class="card__text" href="courses-page.html">
-                                            The Visionary Creator
-                                        </a>
-                                        <div style="margin-top: 5px;">
-                                            <a class="card-box__link" href="#">
-                                                Explore Portfolio
-                                            </a>
-                                        </div>
-                                    </div>
                                     <div class="card-box__person-img card-person-img">
                                         <img class="card-person-img__image" src="images/member-icon-2.png" alt="img">
                                         <span class="card-person-img__status">
 
                                         </span>
                                     </div>
-                                    
+                                    <a class="card-box__link" href="members-page.html">
+                                        Send Message
+                                    </a>
                                 </div>
-                                <ul style="margin-top: 5px;" class="card__list card-list">
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            Mixed media
-                                        </p>
-                                    </li>
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            Acrylics
-                                        </p>
-                                    </li>
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            Experimental techniques
-                                        </p>
-                                    </li>
-                                </ul>
-
-                                <ul class="card__list card-list">
-                                    <li class="card-list__item">
-                                        <p class="card-list__rait">
-                                            <span>
-                                                Kanchan Todi is a multifaceted artist and entrepreneur whose journey into the world of art is fueled by passion and purpose. Despite not being formally trained, Kanchan has been painting since childhood, crafting pieces that reflect her vibrant imagination and unwavering commitment to creativity.
-                                            </span>
-                                        </p>
-                                    </li>
-                                </ul>
-
-                                <ul class="artist_items">
-                                    <li class="card-list__item">
-                                        <p class="card-list__text">
-                                            ⦿ Founder of the Svarang Art Initiative, a platform dedicated to uplifting creative professionals.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <ul class="artist_items">
-                                    <li class="">
-                                        <p class="card-list__text">
-                                            ⦿ Advocate for social causes, blending her artistic pursuits with philanthropy.
-                                        </p>
-                                    </li>
-                                </ul>
-                                <ul class="artist_items">
-                                    <li class="">
-                                        <p class="card-list__text">
-                                            ⦿ Co-creator of art exhibitions and coffee table books showcasing unique works.
-                                        </p>
-                                    </li>
-                                </ul>
-                                
-                                <ul style="margin-top: 20px;" class="">
-                                    <li class="card-list__item">
-                                        <p class="card-list__rait">
-                                            <span>
-                                                Kanchan’s art is a celebration of individuality and emotion, often inspired by her personal experiences and dedication to making a difference in the world.
-                                            </span>
-                                        </p>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
+                        <div class="members__card card">
+                            <div class="card__inner">
+                                <p class="card__suptext">
+                                    ux/ui designer
+                                </p>
+                                <div class="card__options card-options">
+                                    <div class="card-options__btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="card-options__inner">
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M12.6667 5.33331V9.33331" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.6667 7.33331H10.6667" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Add Friend
+                                            </span>
+                                        </a>
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Follow
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="card__title">
+                                    Valerie
+                                    <span>
+                                        Ferguson
+                                    </span>
+                                </h3>
+                                <a class="card__text" href="members-page.html">
+                                    @valerie_ui
+                                </a>
+                                <p class="card__subtext">
+                                    Joined Oct 2020
+                                </p>
+                                <div class="card__box card-box">
+                                    <div class="card-box__person-img card-person-img">
+                                        <img class="card-person-img__image" src="images/member-icon-3.png" alt="img">
+                                        <span class="card-person-img__status card-person-img__status--disabled">
+
+                                        </span>
+                                    </div>
+                                    <a class="card-box__link" href="members-page.html">
+                                        Send Message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members__card card">
+                            <div class="card__inner">
+                                <p class="card__suptext">
+                                    illustrator
+                                </p>
+                                <div class="card__options card-options">
+                                    <div class="card-options__btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="card-options__inner">
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M12.6667 5.33331V9.33331" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.6667 7.33331H10.6667" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Add Friend
+                                            </span>
+                                        </a>
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Follow
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="card__title">
+                                    Lilly-Rose
+                                    <span>
+                                        Holland
+                                    </span>
+                                </h3>
+                                <a class="card__text" href="members-page.html">
+                                    @lillyrose.flower
+                                </a>
+                                <p class="card__subtext">
+                                    Joined Jan 2015
+                                </p>
+                                <div class="card__box card-box">
+                                    <div class="card-box__person-img card-person-img">
+                                        <img class="card-person-img__image" src="images/member-icon-7.png" alt="img">
+                                        <span class="card-person-img__status">
+
+                                        </span>
+                                    </div>
+                                    <a class="card-box__link" href="members-page.html">
+                                        Send Message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members__card card">
+                            <div class="card__inner">
+                                <p class="card__suptext">
+                                    graphic designer
+                                </p>
+                                <div class="card__options card-options">
+                                    <div class="card-options__btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="card-options__inner">
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M12.6667 5.33331V9.33331" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.6667 7.33331H10.6667" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Add Friend
+                                            </span>
+                                        </a>
+                                        <a class="card-options__link" href="members-page.htmls">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Follow
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="card__title">
+                                    Tina
+                                    <span>
+                                        Alvarez
+                                    </span>
+                                </h3>
+                                <a class="card__text" href="members-page.html">
+                                    @tina.alvarez
+                                </a>
+                                <p class="card__subtext">
+                                    Joined Aug 2021
+                                </p>
+                                <div class="card__box card-box">
+                                    <div class="card-box__person-img card-person-img">
+                                        <img class="card-person-img__image" src="images/member-icon-8.png" alt="img">
+                                        <span class="card-person-img__status">
+
+                                        </span>
+                                    </div>
+                                    <a class="card-box__link" href="members-page.html">
+                                        Send Message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members__card card">
+                            <div class="card__inner">
+                                <p class="card__suptext">
+                                    ux/ui designer
+                                </p>
+                                <div class="card__options card-options">
+                                    <div class="card-options__btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="card-options__inner">
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M12.6667 5.33331V9.33331" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.6667 7.33331H10.6667" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Add Friend
+                                            </span>
+                                        </a>
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Follow
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="card__title">
+                                    Susan
+                                    <span>
+                                        Fole
+                                    </span>
+                                </h3>
+                                <a class="card__text" href="members-page.html">
+                                    @susan-foley
+                                </a>
+                                <p class="card__subtext">
+                                    Joined Feb 2021
+                                </p>
+                                <div class="card__box card-box">
+                                    <div class="card-box__person-img card-person-img">
+                                        <img class="card-person-img__image" src="images/member-icon-4.png" alt="img">
+                                        <span class="card-person-img__status">
+
+                                        </span>
+                                    </div>
+                                    <a class="card-box__link" href="members-page.html">
+                                        Send Message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members__card card">
+                            <div class="card__inner">
+                                <p class="card__suptext">
+                                    3d artist
+                                </p>
+                                <div class="card__options card-options">
+                                    <div class="card-options__btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="card-options__inner">
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M12.6667 5.33331V9.33331" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.6667 7.33331H10.6667" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Add Friend
+                                            </span>
+                                        </a>
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Follow
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="card__title">
+                                    Timothy
+                                    <span>
+                                        Stuart
+                                    </span>
+                                </h3>
+                                <a class="card__text" href="members-page.html">
+                                    @tim.stuart.3d
+                                </a>
+                                <p class="card__subtext">
+                                    Joined Dec 2022
+                                </p>
+                                <div class="card__box card-box">
+                                    <div class="card-box__person-img card-person-img">
+                                        <img class="card-person-img__image" src="images/member-icon-10.png" alt="img">
+                                        <span class="card-person-img__status">
+
+                                        </span>
+                                    </div>
+                                    <a class="card-box__link" href="members-page.html">
+                                        Send Message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members__card card">
+                            <div class="card__inner">
+                                <p class="card__suptext">
+                                    ux/ui designer
+                                </p>
+                                <div class="card__options card-options">
+                                    <div class="card-options__btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="card-options__inner">
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M12.6667 5.33331V9.33331" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.6667 7.33331H10.6667" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Add Friend
+                                            </span>
+                                        </a>
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Follow
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="card__title">
+                                    Philippa
+                                    <span>
+                                        Bush
+                                    </span>
+                                </h3>
+                                <a class="card__text" href="members-page.html">
+                                    @philippa-bush23
+                                </a>
+                                <p class="card__subtext">
+                                    Joined May 2023
+                                </p>
+                                <div class="card__box card-box">
+                                    <div class="card-box__person-img card-person-img">
+                                        <img class="card-person-img__image" src="images/member-icon-9.png" alt="img">
+                                        <span class="card-person-img__status card-person-img__status--disabled">
+
+                                        </span>
+                                    </div>
+                                    <a class="card-box__link" href="members-page.htmls">
+                                        Send Message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members__card card">
+                            <div class="card__inner">
+                                <p class="card__suptext">
+                                    illustrator
+                                </p>
+                                <div class="card__options card-options">
+                                    <div class="card-options__btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="card-options__inner">
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M12.6667 5.33331V9.33331" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.6667 7.33331H10.6667" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Add Friend
+                                            </span>
+                                        </a>
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Follow
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="card__title">
+                                    Katie
+                                    <span>
+                                        Campbell
+                                    </span>
+                                </h3>
+                                <a class="card__text" href="members-page.html">
+                                    @katie.campbell.art
+                                </a>
+                                <p class="card__subtext">
+                                    Joined Apr 2018
+                                </p>
+                                <div class="card__box card-box">
+                                    <div class="card-box__person-img card-person-img">
+                                        <img class="card-person-img__image" src="images/member-icon-28.png" alt="img">
+                                        <span class="card-person-img__status card-person-img__status--disabled">
+
+                                        </span>
+                                    </div>
+                                    <a class="card-box__link" href="members-page.htmls">
+                                        Send Message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members__card card">
+                            <div class="card__inner">
+                                <p class="card__suptext">
+                                    graphic designer
+                                </p>
+                                <div class="card__options card-options">
+                                    <div class="card-options__btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="card-options__inner">
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M12.6667 5.33331V9.33331" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.6667 7.33331H10.6667" stroke="#0E1218" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Add Friend
+                                            </span>
+                                        </a>
+                                        <a class="card-options__link" href="members-page.html">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z"
+                                                    stroke="#0E1218" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <span>
+                                                Follow
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="card__title">
+                                    Leila
+                                    <span>
+                                        Calderon
+                                    </span>
+                                </h3>
+                                <a class="card__text" href="members-page.html">
+                                    @lcalderon.paralect
+                                </a>
+                                <p class="card__subtext">
+                                    Joined Jul 2020
+                                </p>
+                                <div class="card__box card-box">
+                                    <div class="card-box__person-img card-person-img">
+                                        <img class="card-person-img__image" src="images/member-icon-19.png" alt="img">
+                                        <span class="card-person-img__status">
+
+                                        </span>
+                                    </div>
+                                    <a class="card-box__link" href="members-page.html">
+                                        Send Message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="members__paging paging">
+                        <p class="paging__text">
+                            Viewing 1 - 9 of 30 active members
+                        </p>
+                        <ul class="paging__list">
+                            <li class="paging__list-item">
+                                <p class="paging__list-text">
+                                    1
+                                </p>
+                            </li>
+                            <li class="paging__list-item">
+                                <a class="paging__list-link" href="#">
+                                    2
+                                </a>
+                            </li>
+                            <li class="paging__list-item">
+                                <a class="paging__list-link" href="#">
+                                    3
+                                </a>
+                            </li>
+                            <li class="paging__list-item">
+                                <a class="paging__list-link" href="#">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.66663 4L12.1952 7.5286C12.4556 7.78894 12.4556 8.21106 12.1952 8.4714L8.66663 12M4.66663 4L8.19522 7.5286C8.45557 7.78894 8.45557 8.21106 8.19522 8.4714L4.66663 12"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>
-            
-            <!-- <section class="main__new-courses new-courses">
-                <div class="container">
-                    <div class="new-courses__top new-courses-top">
-                        <h2 class="new-courses-top__title">
-                            New Courses
-                        </h2>
-                        <div class="new-courses__buttons swiper-buttons">
-                            <div class="new-courses__buttons-prev swiper-buttons-prev-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="new-courses__buttons-next swiper-buttons-next-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="new-courses__swiper new-courses-swiper swiper">
-                        <div class="swiper-wrapper">
-                            <div class="new-courses-swiper__slide new-courses-slide swiper-slide">
-                                <div class="courses__card card">
-                                    <div class="card__inner">
-                                        <p class="card__suptext card__suptext--pink">
-                                            UX/UI
-                                        </p>
-                                        <a class="card__title" href="courses-page.html">
-                                            Designing a Low Prototype in Figma
-                                        </a>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__rait">
-                                                    <span>
-                                                        4.5
-                                                    </span>
-                                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <g id="icons" clip-path="url(#clip0_114_9488)">
-                                                            <path id="Vector"
-                                                                d="M11.9687 4.60317C11.8902 4.36018 11.6746 4.1876 11.4197 4.16462L7.95614 3.85013L6.58656 0.644511C6.48558 0.40958 6.25559 0.257507 6.00006 0.257507C5.74453 0.257507 5.51454 0.40958 5.41356 0.64506L4.04399 3.85013L0.579908 4.16462C0.325385 4.18815 0.110414 4.36018 0.0314019 4.60317C-0.0476102 4.84616 0.0253592 5.11267 0.2179 5.28068L2.83592 7.5767L2.06392 10.9773C2.00744 11.2274 2.10448 11.4858 2.31195 11.6358C2.42346 11.7164 2.55393 11.7574 2.68549 11.7574C2.79893 11.7574 2.91145 11.7268 3.01244 11.6664L6.00006 9.88077L8.98659 11.6664C9.20513 11.7978 9.48062 11.7858 9.68762 11.6358C9.89518 11.4854 9.99214 11.2268 9.93565 10.9773L9.16366 7.5767L11.7817 5.28113C11.9742 5.11267 12.0477 4.84661 11.9687 4.60317Z"
-                                                                fill="#F9D442" />
-                                                        </g>
-                                                        <defs>
-                                                            <clipPath id="clip0_114_9488">
-                                                                <rect width="12" height="12" fill="white" />
-                                                            </clipPath>
-                                                        </defs>
-                                                    </svg>
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    6 Lessons
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    21 Students
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <a class="card-list__link" href="courses-page.html">
-                                                    by Anthony Clark
-                                                    <img class="card-list__link-img" src="images/member-icon-6.png"
-                                                        alt="img">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="courses-page.html">
-                                            <img class="card-box__poster-img" src="images/course-img-2.jpg" alt="img">
-                                            <p class="card-box__poster-text">
-                                                $65
-                                            </p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="new-courses-swiper__slide new-courses-slide swiper-slide">
-                                <div class="courses__card card">
-                                    <div class="card__inner">
-                                        <p class="card__suptext card__suptext--pink">
-                                            illustration
-                                        </p>
-                                        <a class="card__title" href="courses-page.html">
-                                            Creative Thinking: Techniques and Tools
-                                        </a>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__rait">
-                                                    <span>
-                                                        4.5
-                                                    </span>
-                                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <g id="icons" clip-path="url(#clip0_114_9488)">
-                                                            <path id="Vector"
-                                                                d="M11.9687 4.60317C11.8902 4.36018 11.6746 4.1876 11.4197 4.16462L7.95614 3.85013L6.58656 0.644511C6.48558 0.40958 6.25559 0.257507 6.00006 0.257507C5.74453 0.257507 5.51454 0.40958 5.41356 0.64506L4.04399 3.85013L0.579908 4.16462C0.325385 4.18815 0.110414 4.36018 0.0314019 4.60317C-0.0476102 4.84616 0.0253592 5.11267 0.2179 5.28068L2.83592 7.5767L2.06392 10.9773C2.00744 11.2274 2.10448 11.4858 2.31195 11.6358C2.42346 11.7164 2.55393 11.7574 2.68549 11.7574C2.79893 11.7574 2.91145 11.7268 3.01244 11.6664L6.00006 9.88077L8.98659 11.6664C9.20513 11.7978 9.48062 11.7858 9.68762 11.6358C9.89518 11.4854 9.99214 11.2268 9.93565 10.9773L9.16366 7.5767L11.7817 5.28113C11.9742 5.11267 12.0477 4.84661 11.9687 4.60317Z"
-                                                                fill="#F9D442" />
-                                                        </g>
-                                                        <defs>
-                                                            <clipPath id="clip0_114_9488">
-                                                                <rect width="12" height="12" fill="white" />
-                                                            </clipPath>
-                                                        </defs>
-                                                    </svg>
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    6 Lessons
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    21 Students
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <a class="card-list__link" href="courses-page.html">
-                                                    by Philippa Bush
-                                                    <img class="card-list__link-img" src="images/member-icon-3.png"
-                                                        alt="img">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <a class="card-box__poster" href="courses-page.html">
-                                            <img class="card-box__poster-img" src="images/course-img-3.jpg" alt="img">
-                                            <p class="card-box__poster-text">
-                                                $20
-                                            </p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            
-            
-            
-               <!-- <section class="main__new-courses new-courses">
-                <div class="container">
-                    <div class="new-courses__top new-courses-top">
-                        <h2 class="new-courses-top__title">
-                            New Works
-                        </h2>
-                        
-                    </div>
-                    
-                  <div class="portfolio_main">
-                    
-                   
-                      <div class="works_list works_list_col3 ">
-                                        
-                          
-                          <div class="work__shout">
-                                           <a class="work__link-img" href="members-portfolio-single.html">
-                                               <img src="images/new/ga1.jpg" alt="img">
-                                               <div class="work__link-image-caption">Wallet App design</div>
-                                            </a>
-                                            <div class="work__link-image-user">
-                                                <div class="work__link-image-avatar">
-                                             <img class="members-section-top__img-image" src="images/member-icon-16.png" alt="img">
-                                               </div>
-                                               <a href="members-portfolio-single.html"> Elodie Hardin</a></div> 
-                                        </div>
-                                        
-                                        
-                                        
-                                        <div class="work__shout">
-                                           <a class="work__link-img" href="members-portfolio-single.html">
-                                               <img src="images/new/ga2.jpg" alt="img">
-                                               <div class="work__link-image-caption">Wallet App design</div>
-                                            </a>
-                                            <div class="work__link-image-user">
-                                                <div class="work__link-image-avatar">
-                                             <img class="members-section-top__img-image" src="images/member-icon-16.png" alt="img">
-                                               </div>
-                                               <a href="members-portfolio-single.html"> Elodie Hardin</a></div> 
-                                        </div>
-                                        
-                                        <div class="work__shout">
-                                           <a class="work__link-img" href="members-portfolio-single.html">
-                                               <img src="images/new/ga3.jpg" alt="img">
-                                               <div class="work__link-image-caption">Wallet App design</div>
-                                            </a>
-                                            <div class="work__link-image-user">
-                                                <div class="work__link-image-avatar">
-                                             <img class="members-section-top__img-image" src="images/member-icon-16.png" alt="img">
-                                               </div>
-                                               <a href="members-portfolio-single.html"> Elodie Hardin</a></div> 
-                                        </div>
-                                        
-                                        
-                                        
-                                        <div class="work__shout">
-                                           <a class="work__link-img" href="members-portfolio-single.html">
-                                               <img src="images/new/ga4.jpg" alt="img">
-                                               <div class="work__link-image-caption">Wallet App design</div>
-                                            </a>
-                                            <div class="work__link-image-user">
-                                                <div class="work__link-image-avatar">
-                                             <img class="members-section-top__img-image" src="images/member-icon-16.png" alt="img">
-                                               </div>
-                                               <a href="members-portfolio-single.html"> Elodie Hardin</a></div> 
-                                        </div>
-                          
-                          
-                               <div class="work__shout">
-                                           <a class="work__link-img" href="members-portfolio-single.html">
-                                               <img src="images/new/ga1.jpg" alt="img">
-                                               <div class="work__link-image-caption">Wallet App design</div>
-                                            </a>
-                                            <div class="work__link-image-user">
-                                                <div class="work__link-image-avatar">
-                                             <img class="members-section-top__img-image" src="images/member-icon-16.png" alt="img">
-                                               </div>
-                                               <a href="members-portfolio-single.html"> Elodie Hardin</a></div> 
-                                        </div>
-                                        
-                                        
-                                        
-                                        <div class="work__shout">
-                                           <a class="work__link-img" href="members-portfolio-single.html">
-                                               <img src="images/new/ga2.jpg" alt="img">
-                                               <div class="work__link-image-caption">Wallet App design</div>
-                                            </a>
-                                            <div class="work__link-image-user">
-                                                <div class="work__link-image-avatar">
-                                             <img class="members-section-top__img-image" src="images/member-icon-16.png" alt="img">
-                                               </div>
-                                               <a href="members-portfolio-single.html"> Elodie Hardin</a></div> 
-                                        </div>
-                                        
-                                        <div class="work__shout">
-                                           <a class="work__link-img" href="members-portfolio-single.html">
-                                               <img src="images/new/ga3.jpg" alt="img">
-                                               <div class="work__link-image-caption">Wallet App design</div>
-                                            </a>
-                                            <div class="work__link-image-user">
-                                                <div class="work__link-image-avatar">
-                                             <img class="members-section-top__img-image" src="images/member-icon-16.png" alt="img">
-                                               </div>
-                                               <a href="members-portfolio-single.html"> Elodie Hardin</a></div> 
-                                        </div>
-                                        
-                                        
-                                        
-                                        <div class="work__shout">
-                                           <a class="work__link-img" href="members-portfolio-single.html">
-                                               <img src="images/new/ga4.jpg" alt="img">
-                                               <div class="work__link-image-caption">Wallet App design</div>
-                                            </a>
-                                            <div class="work__link-image-user">
-                                                <div class="work__link-image-avatar">
-                                             <img class="members-section-top__img-image" src="images/member-icon-16.png" alt="img">
-                                               </div>
-                                               <a href="members-portfolio-single.html"> Elodie Hardin</a></div> 
-                                        </div>
-                          
-                             <div class="work__shout">
-                                           <a class="work__link-img" href="members-portfolio-single.html">
-                                               <img src="images/new/ga2.jpg" alt="img">
-                                               <div class="work__link-image-caption">Wallet App design</div>
-                                            </a>
-                                            <div class="work__link-image-user">
-                                                <div class="work__link-image-avatar">
-                                             <img class="members-section-top__img-image" src="images/member-icon-16.png" alt="img">
-                                               </div>
-                                               <a href="members-portfolio-single.html"> Elodie Hardin</a></div> 
-                                        </div>
-                          
-                                        
-                                    </div>
-                        
-                    </div>
-                    
-                    
-                </div>
-            </section> -->
-            
-            
-            
-            
-            <!-- <div class="main__section-top section-top section-top--main">
-                <div class="container">
-                    <div class="section-top__inner">
-                        <div class="section-top__content section-top-content">
-                            <p class="section-top-content__date">
-                                Feb 27 – Mar 2, 2023
-                            </p>
-                            <h1 class="section-top-content__title title">
-                                Big Global <br>
-                                E-Commerce Conference ‘23
-                            </h1>
-                            <ul class="section-top-content__list card-list">
-                                <li class="card-list__item">
-                                    <p class="card-list__text">
-                                        New York, NY, United States
-                                    </p>
-                                </li>
-                                <li class="card-list__item">
-                                    <p class="card-list__text">
-                                        IT Education Centre
-                                    </p>
-                                </li>
-                            </ul>
-                            <div class="section-top-content__buttons">
-                                <a class="section-top-content__buttons-link section-top-content__buttons-link--green"
-                                    href="#">
-                                    Buy a Ticket
-                                </a>
-                            </div>
-                        </div>
-                        <div class="section-top__img">
-                            <img class="section-top__img-image" src="images/new/image8885.jpg" alt="img">
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            
-            <!-- <section class="main__shop-section shop-section">
-                <div class="container">
-                    <div class="shop-section__top shop-section-top">
-                        <h2 class="shop-section-top__title">
-                            Our Shop
-                        </h2>
-                        <div class="shop-section__buttons swiper-buttons">
-                            <div class="shop-section__buttons-prev swiper-buttons-prev-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="shop-section__buttons-next swiper-buttons-next-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shop-section__swiper shop-section-swiper swiper">
-                        <div class="swiper-wrapper">
-                            <div class="shop-section-swiper__slide shop-section-slide swiper-slide">
-                                <div class="shop__card card">
-                                    <div class="card__inner">
-                                        <a class="card-box__poster" href="shop.html">
-                                            <img class="card-box__poster-img" src="images/shop-img-4.jpg" alt="img">
-                                            <p class="card-box__poster-suptext">
-                                                sale
-                                            </p>
-                                        </a>
-                                        <p class="card__subtext">
-                                            Decor
-                                        </p>
-                                        <a class="card__title" href="shop.html">
-                                            Coffee Cup
-                                        </a>
-                                        <div class="card__price card-price">
-                                            <del class="card-price__past">
-                                                $30
-                                            </del>
-                                            <ins class="card-price__current">
-                                                $25
-                                            </ins>
-                                        </div>
-                                        <a class="card__link" href="shop.html">
-                                            Add to Cart
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop-section-swiper__slide shop-section-slide swiper-slide">
-                                <div class="shop__card card">
-                                    <div class="card__inner">
-                                        <a class="card-box__poster" href="shop.html">
-                                            <img class="card-box__poster-img" src="images/shop-img-5.jpg" alt="img">
-                                            <p class="card-box__poster-suptext card-box__poster-suptext--pink">
-                                                new
-                                            </p>
-                                        </a>
-                                        <p class="card__subtext">
-                                            Clothes
-                                        </p>
-                                        <a class="card__title" href="shop.html">
-                                            T-Shirt
-                                        </a>
-                                        <div class="card__price card-price">
-                                            <del class="card-price__past">
-
-                                            </del>
-                                            <ins class="card-price__current">
-                                                $153
-                                            </ins>
-                                        </div>
-                                        <a class="card__link" href="shop.html">
-                                            Add to Cart
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop-section-swiper__slide shop-section-slide swiper-slide">
-                                <div class="shop__card card">
-                                    <div class="card__inner">
-                                        <a class="card-box__poster" href="shop.html">
-                                            <img class="card-box__poster-img" src="images/shop-img-6.jpg" alt="img">
-                                        </a>
-                                        <p class="card__subtext">
-                                            Accessories
-                                        </p>
-                                        <a class="card__title" href="shop.html">
-                                            Fashion Bag
-                                        </a>
-                                        <div class="card__price card-price">
-                                            <del class="card-price__past">
-
-                                            </del>
-                                            <ins class="card-price__current">
-                                                $45 – $55
-                                            </ins>
-                                        </div>
-                                        <a class="card__link" href="shop.html">
-                                            Add to Cart
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            
-            <!-- <section class="main__news-section news-section">
-                <div class="container">
-                    <div class="news-section__top news-section-top">
-                        <h2 class="news-section-top__title">
-                            Latest News
-                        </h2>
-                        <div class="news-section__buttons swiper-buttons">
-                            <div class="news-section__buttons-prev swiper-buttons-prev-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="news-section__buttons-next swiper-buttons-next-btn">
-                                <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <g id="icons">
-                                        <path id="Icon"
-                                            d="M2.5 6H9M6.5 3L9.14645 5.64645C9.34171 5.84171 9.34171 6.15829 9.14645 6.35355L6.5 9"
-                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-section__swiper news-section-swiper swiper">
-                        <div class="swiper-wrapper">
-                            <div class="news-section-swiper__slide news-section-slide swiper-slide">
-                                <div class="news-section-slide__card card">
-                                    <div class="card__inner">
-                                        <a class="card-box__poster" href="blog-page.html">
-                                            <img class="card-box__poster-img" src="images/group-img-5.jpg" alt="img">
-                                        </a>
-                                        <p class="card__suptext card__suptext--purple">
-                                            technology
-                                        </p>
-                                        <a class="card__title" href="#">
-                                            The Ultimate Guide to the Best WordPress LMS Plugin
-                                        </a>
-                                        <p class="card__description">
-                                            Investing in a professional website is a must if you want to build trust
-                                            with your customers—and developing that trust is a must if you want your
-                                            ecommerce store to succeed.
-                                        </p>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    April 27, 2022
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    18 Comments
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <a class="card-list__link" href="blog-page.html">
-                                                    by Timothy Stuart
-                                                    <img class="card-list__link-img" src="images/member-icon-15.png"
-                                                        alt="img">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="news-section-swiper__slide news-section-slide swiper-slide">
-                                <div class="news-section-slide__card card">
-                                    <div class="card__inner">
-                                        <a class="card-box__poster" href="blog-page.html">
-                                            <img class="card-box__poster-img" src="images/group-img-18.jpg" alt="img">
-                                        </a>
-                                        <p class="card__suptext card__suptext--purple">
-                                            marketing
-                                        </p>
-                                        <a class="card__title" href="#">
-                                            Making an Online Portfolio to Impress Clients
-                                        </a>
-                                        <p class="card__description">
-                                            The point is, if you want your customers to take you seriously, you need to
-                                            show them you take yourself seriously—and the only way to do that is with a
-                                            professional web design.
-                                        </p>
-                                        <ul class="card__list card-list">
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    January 13, 2022
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <p class="card-list__text">
-                                                    5 Comments
-                                                </p>
-                                            </li>
-                                            <li class="card-list__item">
-                                                <a class="card-list__link" href="blog-page.html">
-                                                    by Anthony Clark
-                                                    <img class="card-list__link-img" src="images/member-icon-4.png"
-                                                        alt="img">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            
-            <!-- <section class="main__login login" id="login-popup">
+        </main>
+        
+                    <section class="main__login login" id="login-popup">
                 <div class="login__inner">
                     <h2 class="login__title">
                         Log In
@@ -3890,9 +2894,9 @@
                         </div>
                     </form>
                 </div>
-            </section> -->
+            </section>
 
-            <!-- <section class="main__popup " id="faq-popup">
+            <section class="main__popup " id="faq-popup">
                 <div class="popup__inner">
                     <h2 class="popup__title">
                         Popular Questions
@@ -3980,12 +2984,12 @@
 
                     </div>
                 </div>
-            </section> -->
+            </section>
 
             <section class="main__popup " id="report-popup">
                 <div class="popup__inner">
                     <h2 class="popup__title">
-                        Contact US
+                        Report form
                     </h2>
 
                     <div class="popup-content">
@@ -4001,25 +3005,17 @@
                 </div>
             </section>
 
-            
-        </main>
+        
         <footer class="footer">
-            <div style="display: flex; justify-content: space-between; padding-left: 10px; padding-right: 10px;">
+            <div class="container">
                 <p class="footer__copy">
-                    Svarang © 2025. All rights reserved.
-                </p>
-                <p class="footer__copy">
-                    Designed by <a href="https://rejola.com/">Rejola</a>
+                    Design Lab © 2023. All rights reserved.
                 </p>
             </div>
         </footer>
     </div>
-        
-           </section>
-
-    <!-- <button class="switch-button"></button> -->
-
-  
+    <button class="switch-button"></button>
+   
 
     <script src="js/jquery.min.js"></script>
     <script src="js//swiper-bundle.min.js"></script>
