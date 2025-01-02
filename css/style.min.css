@@ -5788,6 +5788,26 @@ textarea:focus{
      line-height: 20px
  }
 
+ /* Center the captcha widget */
+.g-recaptcha {
+    margin-top: 0px;
+    
+}
+
+/* Adjust width or container size if needed */
+.g-recaptcha > div {
+    transform: scale(0.90); /* Scale down the captcha widget */
+    transform-origin: 0 0; /* Adjust scaling anchor */
+}
+
+/* Add custom margins or padding */
+.recaptcha-container {
+    /* border-radius: 10px; */
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
  .comment__form-btn {
      display: -webkit-box;
      display: -ms-flexbox;
