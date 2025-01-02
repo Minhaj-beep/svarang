@@ -3394,6 +3394,7 @@ textarea:focus{
      padding-inline: 15px;
      leading-trim: both;
      text-edge: cap;
+     font-family: Filson Pro;
      margin-bottom: 0px;
      font-size: 20px;
      line-height: 36px;
