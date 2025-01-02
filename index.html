@@ -39,9 +39,9 @@
                 <!-- <div class="header__wrapper"><div class="header__lang lang"><div class="lang__top"></div></div></div> -->
                 <div class="header__wrapper">
                     <div class="header__lang lang"><div class="lang__top">
-                        <p class="top_nav__title" href="#">Mission</p>
-                        <p class="top_nav__title" href="#">Vision</p>
-                        <p class="top_nav__title" href="#">Goals</p>
+                        <p onclick="highlightAndScroll('mission', '100')" class="top_nav__title" href="#">Mission</p>
+                        <p onclick="highlightAndScroll('vision', '100')" class="top_nav__title" href="#">Vision</p>
+                        <p onclick="highlightAndScroll('goals', '0')" class="top_nav__title" href="#">Goals</p>
                     </div></div>
                     
                     <!-- <div class="header__lang lang">
@@ -2491,7 +2491,7 @@
                             <p class="card__description">
                                 Meet the faces behind the masterpieces. Explore the portfolios of talented artists, each bringing their unique perspective and passion to life through their work.
                             </p>
-                            <a class="elevate-content__link" data-fancybox="" href="members.html">
+                            <a class="elevate-content__link"  href="members.html">
                                 Explore Artists
                             </a>
                         </div>
@@ -2769,7 +2769,7 @@
                 </div>
             </section>
 
-            <section class="main__elevate elevate">
+            <section id="mission" class="main__elevate elevate">
                 <div class="container">
                     <div class="elevate__inner">
                         <div class="elevate__content elevate-content">
@@ -2793,7 +2793,7 @@
                 </div>
             </section>
 
-            <section class="main__elevate elevate">
+            <section id="vision" class="main__elevate elevate">
                 <div class="container">
                     <div class="elevate__inner">
                         <div class="elevate__view elevate-view">
@@ -2866,7 +2866,7 @@
                 </div>
             </section>
 
-            <section class="main__members members">
+            <section id="goals" class="main__members members">
                 <div class="container">
                     <h2 class="elevate-content__title">
                         Why  
@@ -4019,7 +4019,41 @@
 
     <!-- <button class="switch-button"></button> -->
 
-  
+    <script>
+        function highlightAndScroll(sectionId, offset = 0) {
+            // Find the section by its ID
+            const section = document.getElementById(sectionId);
+
+            if (section) {
+                // Get the position of the section relative to the top of the page
+                const sectionPosition = section.getBoundingClientRect().top + window.scrollY;
+
+                // Scroll to the section with an offset
+                window.scrollTo({
+                    top: sectionPosition - offset, // Subtract the offset
+                    behavior: 'smooth'            // Smooth scrolling animation
+                });
+
+                // Optionally highlight the section for visual feedback
+                section.classList.add('highlight');
+
+                // Remove the highlight after a delay (e.g., 2 seconds)
+                setTimeout(() => section.classList.remove('highlight'), 2000);
+            }
+
+            // Close the mobile menu after clicking
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (mobileMenu) {
+                mobileMenu.classList.remove('active'); // Example of removing an "active" class
+            }
+
+            // Optionally hide the overlay
+            const overlay = document.querySelector('.global-overlay');
+            if (overlay) {
+                overlay.classList.remove('visible'); // Example: remove a class that makes the overlay visible
+            }
+        }
+    </script>
 
     <script src="js/jquery.min.js"></script>
     <script src="js//swiper-bundle.min.js"></script>
