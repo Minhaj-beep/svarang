@@ -1668,11 +1668,11 @@ textarea:focus{
  }
 
  .body--white .heading__title span:first-child::before {
-     background: #002147
+     background: #EF0107
  }
 
  .body--white .heading__title span:last-child::before {
-     border: 1px solid #002147
+     border: 1px solid #FEBE10
  }
 
  .body--white .count-item:nth-child(4) {
@@ -3427,7 +3427,8 @@ textarea:focus{
      color: #8c969a;
      leading-trim: both;
      text-edge: cap;
-     font-weight: 600;
+     font-family: Filson Pro;
+     font-weight: 500;
      margin-bottom: 15px;
      font-size: 24px;
      line-height: 28px
@@ -4038,11 +4039,11 @@ textarea:focus{
  }
 
  .card-person-img {
-     width: 120px;
-     max-width: 120px;
-     min-width: 120px;
-     height: 120px;
-     max-height: 120px;
+     width: 140px;
+     max-width: 140px;
+     min-width: 140px;
+     height: 140px;
+     max-height: 140px;
      border-radius: 100%;
      position: relative
  }
@@ -14516,7 +14517,7 @@ html .elite-rating span {
      
      
        .logo {
-       margin-left: 30px;
+       margin-left: 40px;
 }
      
      .logo__text{
