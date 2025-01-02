@@ -3835,6 +3835,7 @@ textarea:focus{
      text-align: center;
      leading-trim: both;
      text-edge: cap;
+     font-family: Filson Pro;
      font-size: 14px;
      font-weight: 600;
      line-height: 20px;
@@ -8851,7 +8852,7 @@ textarea:focus{
      line-height: 30px;
      font-weight: 600;
      text-align: start;
-     text-shadow: 1px 1px #002147;
+     /* text-shadow: 1px 1px #002147; */
  }
 
  .font-size-20 {
@@ -8865,7 +8866,7 @@ textarea:focus{
      line-height: 20px;
      font-weight: 500;
      text-align: start;
-     text-shadow: 0.5px 0.5px #EF0107;
+     /* text-shadow: 0.5px 0.5px #EF0107; */
  }
 
  @media(max-width: 1210px) {
